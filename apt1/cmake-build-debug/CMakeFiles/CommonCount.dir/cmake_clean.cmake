@@ -1,7 +1,9 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/CommonCount.dir/CommonCount/main.cpp.o"
+  "CMakeFiles/CommonCount.dir/CommonCount/main.cpp.obj"
   "CommonCount.pdb"
-  "CommonCount"
+  "CommonCount.exe"
+  "CommonCount.exe.manifest"
+  "libCommonCount.dll.a"
 )
 
 # Per-language clean rules from dependency scanning.

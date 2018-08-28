@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/caleb/Desktop/Data-Structures/apt1/Hailstone/main.cpp" "/home/caleb/Desktop/Data-Structures/apt1/cmake-build-debug/CMakeFiles/Hailstone.dir/Hailstone/main.cpp.o"
+  "C:/Users/cdud8/Desktop/Data-Structures/apt1/Hailstone/main.cpp" "C:/Users/cdud8/Desktop/Data-Structures/apt1/cmake-build-debug/CMakeFiles/Hailstone.dir/Hailstone/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

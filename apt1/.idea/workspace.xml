@@ -31,6 +31,7 @@
     <session id="-882229403">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="1" />
           <entry key="project.open.time.4" value="1" />
           <entry key="project.opened" value="1" />
         </counts>
@@ -310,25 +311,40 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1535408644984</updated>
+<<<<<<< Updated upstream
       <workItem from="1535408647920" duration="2495000" />
       <workItem from="1535423365067" duration="4715000" />
       <workItem from="1535474587834" duration="560000" />
+=======
+      <workItem from="1535408647920" duration="2551000" />
+>>>>>>> Stashed changes
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< Updated upstream
     <option name="totallyTimeSpent" value="7770000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="129" y="13" width="3712" height="2148" extended-state="6" />
     <editor active="true" />
+=======
+    <option name="totallyTimeSpent" value="2551000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-6" y="-6" width="1292" height="692" extended-state="6" />
+>>>>>>> Stashed changes
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25069407" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
+<<<<<<< Updated upstream
       <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.25066808" />
+=======
+      <window_info anchor="bottom" id="Run" order="2" weight="0.25222024" />
+>>>>>>> Stashed changes
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />

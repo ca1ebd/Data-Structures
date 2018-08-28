@@ -37,17 +37,37 @@ string recursive_frac(int num, int den){
 }
 
 string cfrac(int num, int den) {
-    string base_string = recursive_frac(num, den);
-    return "[" + base_string.substr(0, 1) + ";" + base_string.substr(1, base_string.length() - base_string.back()) + "]";
-//    return recursive_frac(num, den);
+    vector<int> coeffs;
 
+    do{
+        int coeff = num/den;
+        num -= coeff*den;
+        coeffs.push_back(coeff);
+        //switch variables
+        int temp = num;
+        num = den;
+        den = temp;
+        if(den == 1){
+            coeff = num/den;
+            num -= coeff*den;
+            coeffs.push_back(coeff);
+        }
+    } while(den != 1);
+    string toReturn = "[";
+    toReturn+=to_string(coeffs[0]) + ";";
+    for(int i=1; i<coeffs.size(); i++){
+        toReturn += to_string(coeffs[i]) + ",";
+    }
+    toReturn.erase(toReturn.end() - 1);
+    toReturn+= "]";
+    return toReturn;
 }
 
 
 
 int main() {
 
-    cout << cfrac(421, 36);
+    cout << cfrac(368, 56);
 
     return 0;
 }

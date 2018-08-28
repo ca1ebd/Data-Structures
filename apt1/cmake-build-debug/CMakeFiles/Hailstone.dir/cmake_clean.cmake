@@ -1,7 +1,9 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Hailstone.dir/Hailstone/main.cpp.o"
+  "CMakeFiles/Hailstone.dir/Hailstone/main.cpp.obj"
   "Hailstone.pdb"
-  "Hailstone"
+  "Hailstone.exe"
+  "Hailstone.exe.manifest"
+  "libHailstone.dll.a"
 )
 
 # Per-language clean rules from dependency scanning.

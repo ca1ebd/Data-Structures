@@ -1,7 +1,9 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/ContinuedFractions.dir/ContinuedFractions/main.cpp.o"
+  "CMakeFiles/ContinuedFractions.dir/ContinuedFractions/main.cpp.obj"
   "ContinuedFractions.pdb"
-  "ContinuedFractions"
+  "ContinuedFractions.exe"
+  "ContinuedFractions.exe.manifest"
+  "libContinuedFractions.dll.a"
 )
 
 # Per-language clean rules from dependency scanning.
