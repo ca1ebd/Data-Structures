@@ -26,21 +26,28 @@ using namespace std;
 //}
 
 
-
-string cfrac(int num, int den) {
+string recursive_frac(int num, int den){
     int coeff = num/den;
     num -= coeff*den;
     if(den == 1){
         return to_string(coeff);
     }
 
-    return to_string(coeff) + cfrac(den, num);
+    return to_string(coeff) + recursive_frac(den, num);
+}
+
+string cfrac(int num, int den) {
+    string base_string = recursive_frac(num, den);
+    return "[" + base_string.substr(0, 1) + ";" + base_string.substr(1, base_string.length() - base_string.back()) + "]";
+//    return recursive_frac(num, den);
 
 }
 
+
+
 int main() {
 
-    cout << cfrac(1, 3);
+    cout << cfrac(421, 36);
 
     return 0;
 }
