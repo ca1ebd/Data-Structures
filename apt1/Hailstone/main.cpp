@@ -4,7 +4,7 @@
 using namespace std;
 
 string sequence(int n) {
-    string toReturn = "";
+    string toReturn = to_string(n) + " ";
     while(n != 1){
         if(n%2 == 0){ //n is even
             n/=2;
@@ -13,16 +13,17 @@ string sequence(int n) {
             n*=3;
             n+=1;
         }
-        toReturn += (to_string(n) + " ");
+        cout << n << endl;
+        toReturn += to_string(n) + " ";
     }
-    toReturn.erase(toReturn.end());
+    toReturn.erase(toReturn.end() - 1);
     return toReturn;
 }
 
 
 int main() {
 
-    cout << sequence(4) << endl;
+    cout << sequence(17) << endl;
 
     return 0;
 

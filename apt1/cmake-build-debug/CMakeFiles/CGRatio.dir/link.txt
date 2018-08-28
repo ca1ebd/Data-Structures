@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/CGRatio.dir/CGRatio/main.cpp.o  -o CGRatio 

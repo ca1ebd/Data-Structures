@@ -1,3 +1,1 @@
-"C:\Program Files\JetBrains\CLion 2018.2.2\bin\cmake\win\bin\cmake.exe" -E remove -f CMakeFiles\CommonCount.dir/objects.a
-C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\ar.exe cr CMakeFiles\CommonCount.dir/objects.a @CMakeFiles\CommonCount.dir\objects1.rsp
-C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE -g   -Wl,--whole-archive CMakeFiles\CommonCount.dir/objects.a -Wl,--no-whole-archive  -o CommonCount.exe -Wl,--out-implib,libCommonCount.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\CommonCount.dir\linklibs.rsp
+/usr/bin/c++  -g   CMakeFiles/CommonCount.dir/CommonCount/main.cpp.o  -o CommonCount 

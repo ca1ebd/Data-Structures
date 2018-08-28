@@ -1,9 +1,7 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/AccessLevel.dir/AccessLevel/main.cpp.obj"
+  "CMakeFiles/AccessLevel.dir/AccessLevel/main.cpp.o"
   "AccessLevel.pdb"
-  "AccessLevel.exe"
-  "AccessLevel.exe.manifest"
-  "libAccessLevel.dll.a"
+  "AccessLevel"
 )
 
 # Per-language clean rules from dependency scanning.

@@ -1,9 +1,7 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/apt1.dir/main.cpp.obj"
+  "CMakeFiles/apt1.dir/main.cpp.o"
   "apt1.pdb"
-  "apt1.exe"
-  "apt1.exe.manifest"
-  "libapt1.dll.a"
+  "apt1"
 )
 
 # Per-language clean rules from dependency scanning.
