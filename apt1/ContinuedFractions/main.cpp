@@ -40,7 +40,13 @@ string cfrac(int num, int den) {
     vector<int> coeffs;
 
     do{
-        int coeff = num/den;
+        int coeff;
+//        if(den!=0){
+//            coeff = num/den;
+//        }
+
+        coeff = num/den;
+
         num -= coeff*den;
         coeffs.push_back(coeff);
         //switch variables
@@ -52,7 +58,7 @@ string cfrac(int num, int den) {
             num -= coeff*den;
             coeffs.push_back(coeff);
         }
-    } while(den != 1);
+    } while((den != 1) and (den != 0));
     string toReturn = "[";
     toReturn+=to_string(coeffs[0]) + ";";
     for(int i=1; i<coeffs.size(); i++){
