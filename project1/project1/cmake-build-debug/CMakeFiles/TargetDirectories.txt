@@ -1,0 +1,3 @@
+C:/Users/cdud8/Desktop/Data-Structures/project1/project1/cmake-build-debug/CMakeFiles/image_editor.dir
+C:/Users/cdud8/Desktop/Data-Structures/project1/project1/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/cdud8/Desktop/Data-Structures/project1/project1/cmake-build-debug/CMakeFiles/rebuild_cache.dir

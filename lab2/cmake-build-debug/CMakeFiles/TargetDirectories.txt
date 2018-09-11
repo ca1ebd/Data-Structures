@@ -1,0 +1,3 @@
+C:/Users/cdud8/Desktop/Data-Structures/lab2/cmake-build-debug/CMakeFiles/lab2.dir
+C:/Users/cdud8/Desktop/Data-Structures/lab2/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/cdud8/Desktop/Data-Structures/lab2/cmake-build-debug/CMakeFiles/rebuild_cache.dir

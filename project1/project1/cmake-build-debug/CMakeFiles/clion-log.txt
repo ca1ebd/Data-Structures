@@ -1,0 +1,43 @@
+"C:\Program Files\JetBrains\CLion 2018.2.2\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" C:\Users\cdud8\Desktop\Data-Structures\project1\project1
+-- The C compiler identification is GNU 6.1.0
+-- The CXX compiler identification is GNU 6.1.0
+-- Check for working C compiler: C:/Users/cdud8/Downloads/x86_64-6.1.0-release-posix-seh-rt_v5-rev0/mingw64/bin/gcc.exe
+-- Check for working C compiler: C:/Users/cdud8/Downloads/x86_64-6.1.0-release-posix-seh-rt_v5-rev0/mingw64/bin/gcc.exe -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: C:/Users/cdud8/Downloads/x86_64-6.1.0-release-posix-seh-rt_v5-rev0/mingw64/bin/g++.exe
+-- Check for working CXX compiler: C:/Users/cdud8/Downloads/x86_64-6.1.0-release-posix-seh-rt_v5-rev0/mingw64/bin/g++.exe -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Looking for pthread_create
+-- Looking for pthread_create - found
+-- Found Threads: TRUE  
+-- Copying directory bin
+-- Copying resource C:/Users/cdud8/Desktop/Data-Structures/project1/project1/bin/openal32.dll
+-- Copying resource C:/Users/cdud8/Desktop/Data-Structures/project1/project1/bin/sfml-audio-2.dll
+-- Copying resource C:/Users/cdud8/Desktop/Data-Structures/project1/project1/bin/sfml-audio-d-2.dll
+-- Copying resource C:/Users/cdud8/Desktop/Data-Structures/project1/project1/bin/sfml-graphics-2.dll
+-- Copying resource C:/Users/cdud8/Desktop/Data-Structures/project1/project1/bin/sfml-graphics-d-2.dll
+-- Copying resource C:/Users/cdud8/Desktop/Data-Structures/project1/project1/bin/sfml-network-2.dll
+-- Copying resource C:/Users/cdud8/Desktop/Data-Structures/project1/project1/bin/sfml-network-d-2.dll
+-- Copying resource C:/Users/cdud8/Desktop/Data-Structures/project1/project1/bin/sfml-system-2.dll
+-- Copying resource C:/Users/cdud8/Desktop/Data-Structures/project1/project1/bin/sfml-system-d-2.dll
+-- Copying resource C:/Users/cdud8/Desktop/Data-Structures/project1/project1/bin/sfml-window-2.dll
+-- Copying resource C:/Users/cdud8/Desktop/Data-Structures/project1/project1/bin/sfml-window-d-2.dll
+-- Copying directory sampleinputs
+-- Copying resource C:/Users/cdud8/Desktop/Data-Structures/project1/project1/sampleinputs/blocks.ppm
+-- Copying resource C:/Users/cdud8/Desktop/Data-Structures/project1/project1/sampleinputs/cake.ppm
+-- Copying resource C:/Users/cdud8/Desktop/Data-Structures/project1/project1/sampleinputs/cpw.ppm
+-- Copying resource C:/Users/cdud8/Desktop/Data-Structures/project1/project1/sampleinputs/sphinx.ppm
+-- Copying resource C:/Users/cdud8/Desktop/Data-Structures/project1/project1/sampleinputs/squares.ppm
+-- Copying resource C:/Users/cdud8/Desktop/Data-Structures/project1/project1/sampleinputs/test.ppm
+-- Copying resource C:/Users/cdud8/Desktop/Data-Structures/project1/project1/sampleinputs/tinypix.ppm
+-- Configuring done
+-- Generating done
+-- Build files have been written to: C:/Users/cdud8/Desktop/Data-Structures/project1/project1/cmake-build-debug

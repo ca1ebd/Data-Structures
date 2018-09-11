@@ -1,0 +1,455 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true" buildAllGenerated="true">
+    <generated>
+      <config projectName="lab3" targetName="lab3" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f1d7647c-9e74-41fb-902c-70033ae4aaf5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../lab2/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab2/.idea/lab2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab2/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab2/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab2/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab2/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab2/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab2/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab2/cmake-build-debug/CMakeFiles/3.12.0/CMakeCCompiler.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab2/cmake-build-debug/CMakeFiles/3.12.0/CMakeCXXCompiler.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab2/cmake-build-debug/CMakeFiles/3.12.0/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab2/cmake-build-debug/CMakeFiles/3.12.0/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab2/cmake-build-debug/CMakeFiles/3.12.0/CMakeRCCompiler.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab2/cmake-build-debug/CMakeFiles/3.12.0/CMakeSystem.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab2/cmake-build-debug/CMakeFiles/3.12.0/CompilerIdC/CMakeCCompilerId.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab2/cmake-build-debug/CMakeFiles/3.12.0/CompilerIdC/a.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab2/cmake-build-debug/CMakeFiles/3.12.0/CompilerIdCXX/CMakeCXXCompilerId.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab2/cmake-build-debug/CMakeFiles/3.12.0/CompilerIdCXX/a.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab2/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab2/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab2/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab2/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab2/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab2/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab2/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab2/cmake-build-debug/CMakeFiles/cmake.check_cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab2/cmake-build-debug/CMakeFiles/feature_tests.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab2/cmake-build-debug/CMakeFiles/feature_tests.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab2/cmake-build-debug/CMakeFiles/feature_tests.cxx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab2/cmake-build-debug/CMakeFiles/lab2.dir/DependInfo.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab2/cmake-build-debug/CMakeFiles/lab2.dir/build.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab2/cmake-build-debug/CMakeFiles/lab2.dir/cmake_clean.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab2/cmake-build-debug/CMakeFiles/lab2.dir/depend.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab2/cmake-build-debug/CMakeFiles/lab2.dir/flags.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab2/cmake-build-debug/CMakeFiles/lab2.dir/link.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab2/cmake-build-debug/CMakeFiles/lab2.dir/linklibs.rsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab2/cmake-build-debug/CMakeFiles/lab2.dir/objects1.rsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab2/cmake-build-debug/CMakeFiles/lab2.dir/progress.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab2/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab2/cmake-build-debug/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab2/cmake-build-debug/cmake_install.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab2/cmake-build-debug/haiku.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab2/cmake-build-debug/haiku2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab2/cmake-build-debug/lab2.cbp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab2/cmake-build-debug/lab2.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab2/cmake-build-debug/lines.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab2/cmake-build-debug/sonnet.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab2/main.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab2/part2.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project1/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project1/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project1/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project1/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project1/.idea/project1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project1/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project1/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project1/project1/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project1/project1/bin/openal32.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project1/project1/bin/sfml-audio-2.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project1/project1/bin/sfml-audio-d-2.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project1/project1/bin/sfml-graphics-2.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project1/project1/bin/sfml-graphics-d-2.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project1/project1/bin/sfml-network-2.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project1/project1/bin/sfml-network-d-2.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project1/project1/bin/sfml-system-2.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project1/project1/bin/sfml-system-d-2.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project1/project1/bin/sfml-window-2.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project1/project1/bin/sfml-window-d-2.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project1/project1/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project1/project1/cmake-build-debug/CMakeFiles/3.12.0/CMakeCCompiler.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project1/project1/cmake-build-debug/CMakeFiles/3.12.0/CMakeCXXCompiler.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project1/project1/cmake-build-debug/CMakeFiles/3.12.0/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project1/project1/cmake-build-debug/CMakeFiles/3.12.0/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project1/project1/cmake-build-debug/CMakeFiles/3.12.0/CMakeRCCompiler.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project1/project1/cmake-build-debug/CMakeFiles/3.12.0/CMakeSystem.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project1/project1/cmake-build-debug/CMakeFiles/3.12.0/CompilerIdC/CMakeCCompilerId.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project1/project1/cmake-build-debug/CMakeFiles/3.12.0/CompilerIdC/a.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project1/project1/cmake-build-debug/CMakeFiles/3.12.0/CompilerIdCXX/CMakeCXXCompilerId.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project1/project1/cmake-build-debug/CMakeFiles/3.12.0/CompilerIdCXX/a.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project1/project1/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project1/project1/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project1/project1/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project1/project1/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project1/project1/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project1/project1/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project1/project1/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project1/project1/cmake-build-debug/CMakeFiles/cmake.check_cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project1/project1/cmake-build-debug/CMakeFiles/feature_tests.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project1/project1/cmake-build-debug/CMakeFiles/feature_tests.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project1/project1/cmake-build-debug/CMakeFiles/feature_tests.cxx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project1/project1/cmake-build-debug/CMakeFiles/image_editor.dir/CXX.includecache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project1/project1/cmake-build-debug/CMakeFiles/image_editor.dir/DependInfo.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project1/project1/cmake-build-debug/CMakeFiles/image_editor.dir/build.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project1/project1/cmake-build-debug/CMakeFiles/image_editor.dir/cmake_clean.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project1/project1/cmake-build-debug/CMakeFiles/image_editor.dir/depend.internal" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project1/project1/cmake-build-debug/CMakeFiles/image_editor.dir/depend.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project1/project1/cmake-build-debug/CMakeFiles/image_editor.dir/drawing_window.cpp.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project1/project1/cmake-build-debug/CMakeFiles/image_editor.dir/flags.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project1/project1/cmake-build-debug/CMakeFiles/image_editor.dir/image_editor.cpp.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project1/project1/cmake-build-debug/CMakeFiles/image_editor.dir/includes_CXX.rsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project1/project1/cmake-build-debug/CMakeFiles/image_editor.dir/link.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project1/project1/cmake-build-debug/CMakeFiles/image_editor.dir/linklibs.rsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project1/project1/cmake-build-debug/CMakeFiles/image_editor.dir/main.cpp.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project1/project1/cmake-build-debug/CMakeFiles/image_editor.dir/objects.a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project1/project1/cmake-build-debug/CMakeFiles/image_editor.dir/objects1.rsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project1/project1/cmake-build-debug/CMakeFiles/image_editor.dir/progress.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project1/project1/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project1/project1/cmake-build-debug/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project1/project1/cmake-build-debug/bin/blocks.ppm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project1/project1/cmake-build-debug/bin/cake.ppm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project1/project1/cmake-build-debug/bin/cpw.ppm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project1/project1/cmake-build-debug/bin/image_editor.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project1/project1/cmake-build-debug/bin/openal32.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project1/project1/cmake-build-debug/bin/sfml-audio-2.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project1/project1/cmake-build-debug/bin/sfml-audio-d-2.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project1/project1/cmake-build-debug/bin/sfml-graphics-2.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project1/project1/cmake-build-debug/bin/sfml-graphics-d-2.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project1/project1/cmake-build-debug/bin/sfml-network-2.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project1/project1/cmake-build-debug/bin/sfml-network-d-2.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project1/project1/cmake-build-debug/bin/sfml-system-2.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project1/project1/cmake-build-debug/bin/sfml-system-d-2.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project1/project1/cmake-build-debug/bin/sfml-window-2.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project1/project1/cmake-build-debug/bin/sfml-window-d-2.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project1/project1/cmake-build-debug/bin/sphinx.ppm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project1/project1/cmake-build-debug/bin/sphinx2.ppm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project1/project1/cmake-build-debug/bin/squares.ppm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project1/project1/cmake-build-debug/bin/test.ppm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project1/project1/cmake-build-debug/bin/tinypix.ppm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project1/project1/cmake-build-debug/cmake_install.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project1/project1/cmake-build-debug/image_editor.cbp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project1/project1/drawing_window.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project1/project1/drawing_window.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project1/project1/image_editor.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project1/project1/image_editor.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project1/project1/include/SFML/Audio.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project1/project1/include/SFML/Audio/AlResource.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project1/project1/include/SFML/Audio/Export.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project1/project1/include/SFML/Audio/InputSoundFile.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project1/project1/include/SFML/Audio/Listener.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project1/project1/include/SFML/Audio/Music.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project1/project1/include/SFML/Audio/OutputSoundFile.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project1/project1/include/SFML/Audio/Sound.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project1/project1/include/SFML/Audio/SoundBuffer.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project1/project1/include/SFML/Audio/SoundBufferRecorder.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project1/project1/include/SFML/Audio/SoundFileFactory.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project1/project1/include/SFML/Audio/SoundFileFactory.inl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project1/project1/include/SFML/Audio/SoundFileReader.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project1/project1/include/SFML/Audio/SoundFileWriter.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project1/project1/include/SFML/Audio/SoundRecorder.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project1/project1/include/SFML/Audio/SoundSource.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project1/project1/include/SFML/Audio/SoundStream.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project1/project1/include/SFML/Config.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project1/project1/include/SFML/GpuPreference.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project1/project1/include/SFML/Graphics.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project1/project1/include/SFML/Graphics/BlendMode.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project1/project1/include/SFML/Graphics/CircleShape.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project1/project1/include/SFML/Graphics/Color.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project1/project1/include/SFML/Graphics/ConvexShape.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project1/project1/include/SFML/Graphics/Drawable.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project1/project1/include/SFML/Graphics/Export.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project1/project1/include/SFML/Graphics/Font.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project1/project1/include/SFML/Graphics/Glsl.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project1/project1/include/SFML/Graphics/Glsl.inl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project1/project1/include/SFML/Graphics/Glyph.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project1/project1/include/SFML/Graphics/Image.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project1/project1/include/SFML/Graphics/PrimitiveType.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project1/project1/include/SFML/Graphics/Rect.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project1/project1/include/SFML/Graphics/Rect.inl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project1/project1/include/SFML/Graphics/RectangleShape.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project1/project1/include/SFML/Graphics/RenderStates.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project1/project1/include/SFML/Graphics/RenderTarget.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project1/project1/include/SFML/Graphics/RenderTexture.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project1/project1/include/SFML/Graphics/RenderWindow.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project1/project1/include/SFML/Graphics/Shader.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project1/project1/include/SFML/Graphics/Shape.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project1/project1/include/SFML/Graphics/Sprite.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project1/project1/include/SFML/Graphics/Text.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project1/project1/include/SFML/Graphics/Texture.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project1/project1/include/SFML/Graphics/Transform.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project1/project1/include/SFML/Graphics/Transformable.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project1/project1/include/SFML/Graphics/Vertex.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project1/project1/include/SFML/Graphics/VertexArray.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project1/project1/include/SFML/Graphics/VertexBuffer.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project1/project1/include/SFML/Graphics/View.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project1/project1/include/SFML/Main.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project1/project1/include/SFML/Network.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project1/project1/include/SFML/Network/Export.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project1/project1/include/SFML/Network/Ftp.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project1/project1/include/SFML/Network/Http.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project1/project1/include/SFML/Network/IpAddress.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project1/project1/include/SFML/Network/Packet.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project1/project1/include/SFML/Network/Socket.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project1/project1/include/SFML/Network/SocketHandle.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project1/project1/include/SFML/Network/SocketSelector.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project1/project1/include/SFML/Network/TcpListener.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project1/project1/include/SFML/Network/TcpSocket.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project1/project1/include/SFML/Network/UdpSocket.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project1/project1/include/SFML/OpenGL.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project1/project1/include/SFML/System.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project1/project1/include/SFML/System/Clock.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project1/project1/include/SFML/System/Err.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project1/project1/include/SFML/System/Export.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project1/project1/include/SFML/System/FileInputStream.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project1/project1/include/SFML/System/InputStream.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project1/project1/include/SFML/System/Lock.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project1/project1/include/SFML/System/MemoryInputStream.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project1/project1/include/SFML/System/Mutex.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project1/project1/include/SFML/System/NativeActivity.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project1/project1/include/SFML/System/NonCopyable.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project1/project1/include/SFML/System/Sleep.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project1/project1/include/SFML/System/String.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project1/project1/include/SFML/System/String.inl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project1/project1/include/SFML/System/Thread.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project1/project1/include/SFML/System/Thread.inl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project1/project1/include/SFML/System/ThreadLocal.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project1/project1/include/SFML/System/ThreadLocalPtr.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project1/project1/include/SFML/System/ThreadLocalPtr.inl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project1/project1/include/SFML/System/Time.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project1/project1/include/SFML/System/Utf.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project1/project1/include/SFML/System/Utf.inl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project1/project1/include/SFML/System/Vector2.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project1/project1/include/SFML/System/Vector2.inl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project1/project1/include/SFML/System/Vector3.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project1/project1/include/SFML/System/Vector3.inl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project1/project1/include/SFML/Window.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project1/project1/include/SFML/Window/Clipboard.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project1/project1/include/SFML/Window/Context.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project1/project1/include/SFML/Window/ContextSettings.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project1/project1/include/SFML/Window/Cursor.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project1/project1/include/SFML/Window/Event.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project1/project1/include/SFML/Window/Export.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project1/project1/include/SFML/Window/GlResource.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project1/project1/include/SFML/Window/Joystick.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project1/project1/include/SFML/Window/Keyboard.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project1/project1/include/SFML/Window/Mouse.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project1/project1/include/SFML/Window/Sensor.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project1/project1/include/SFML/Window/Touch.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project1/project1/include/SFML/Window/VideoMode.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project1/project1/include/SFML/Window/Window.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project1/project1/include/SFML/Window/WindowHandle.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project1/project1/include/SFML/Window/WindowStyle.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project1/project1/lib/libFLAC.a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project1/project1/lib/libfreetype.a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project1/project1/lib/libogg.a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project1/project1/lib/libopenal32.a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project1/project1/lib/libsfml-audio-d.a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project1/project1/lib/libsfml-audio-s-d.a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project1/project1/lib/libsfml-audio-s.a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project1/project1/lib/libsfml-audio.a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project1/project1/lib/libsfml-graphics-d.a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project1/project1/lib/libsfml-graphics-s-d.a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project1/project1/lib/libsfml-graphics-s.a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project1/project1/lib/libsfml-graphics.a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project1/project1/lib/libsfml-main-d.a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project1/project1/lib/libsfml-main.a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project1/project1/lib/libsfml-network-d.a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project1/project1/lib/libsfml-network-s-d.a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project1/project1/lib/libsfml-network-s.a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project1/project1/lib/libsfml-network.a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project1/project1/lib/libsfml-system-d.a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project1/project1/lib/libsfml-system-s-d.a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project1/project1/lib/libsfml-system-s.a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project1/project1/lib/libsfml-system.a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project1/project1/lib/libsfml-window-d.a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project1/project1/lib/libsfml-window-s-d.a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project1/project1/lib/libsfml-window-s.a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project1/project1/lib/libsfml-window.a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project1/project1/lib/libvorbis.a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project1/project1/lib/libvorbisenc.a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project1/project1/lib/libvorbisfile.a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project1/project1/main.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project1/project1/sampleinputs/blocks.ppm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project1/project1/sampleinputs/cake.ppm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project1/project1/sampleinputs/cpw.ppm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project1/project1/sampleinputs/sphinx.ppm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project1/project1/sampleinputs/squares.ppm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project1/project1/sampleinputs/test.ppm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project1/project1/sampleinputs/tinypix.ppm" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="FUSProjectUsageTrigger">
+    <session id="119421866">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.4" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/main.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" selection-start-line="2" selection-end-line="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/main.cpp" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-15" />
+    <option name="width" value="1950" />
+    <option name="height" value="2055" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="CPPToolchains" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.lab3">
+    <configuration name="Build All" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" EXPLICIT_BUILD_TARGET_NAME="all">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="lab3" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="lab3" TARGET_NAME="lab3" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="lab3" RUN_TARGET_NAME="lab3">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Build All" />
+      <item itemvalue="Application.lab3" />
+    </list>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f1d7647c-9e74-41fb-902c-70033ae4aaf5" name="Default Changelist" comment="" />
+      <created>1536346967388</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1536346967388</updated>
+      <workItem from="1536346972384" duration="276000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="276000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-6" y="-6" width="1292" height="692" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="CMake" />
+      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
