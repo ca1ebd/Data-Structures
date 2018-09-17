@@ -24,6 +24,8 @@ bool image_editor::load(istream& in) {
     in >> rowsString;
     rows = stoi(rowsString);
     cols = stoi(colsString);
+
+    if(rows < 0 or cols < 0) return false;
 //    cout << "Columns: " << cols << endl;
 //    cout << "Rows: " << rows << endl;
     // TODO: ensure valid
@@ -131,6 +133,15 @@ void image_editor::apply_effect(int action_index) {
     else if (a == FLIP_VERTICAL){
         flip_vertical();
     }
+    else if(a == ENLARGE){
+        enlarge();
+    }
+    else if(a == REDUCE) {
+        reduce();
+    }
+    else if(a == ROTATE){
+        rotate();
+    }
 }
 
 //custom effects
@@ -237,6 +248,56 @@ void image_editor::flip_vertical(){
         }
     }
 }
+
+void image_editor::enlarge() {
+    vector<vector<vector<int>>> largeVec(rows*2, vector<vector<int>>(cols*2, vector<int>(3))); //create larger vector
+
+    for(int i=0; i<rows; i++){
+        for(int j=0; j<cols; j++){
+            largeVec[i*2][j*2] = imageVec[i][j];
+            largeVec[i*2][j*2+1] = imageVec[i][j];
+            largeVec[i*2+1][j*2] = imageVec[i][j];
+            largeVec[i*2+1][j*2+1] = imageVec[i][j];
+        }
+    }
+
+    imageVec = largeVec;
+    rows*=2;
+    cols*=2;
+
+}
+
+void image_editor::reduce() {
+    vector<vector<vector<int>>> smallVec(rows/2, vector<vector<int>>(cols/2, vector<int>(3))); //create smaller vector
+
+    for(int i=0; i<rows/2; i++){
+        for(int j=0; j<cols/2; j++){
+            smallVec[i][j] = imageVec[i*2][j*2];
+        }
+    }
+
+    imageVec = smallVec;
+    cols/=2;
+    rows/=2;
+}
+
+void image_editor::rotate() {
+    vector<vector<vector<int>>> rotVec(cols, vector<vector<int>>(rows, vector<int>(3))); //create smaller vector
+
+    for(int i=0; i<rows; i++){
+        for(int j=0; j<cols; j++){
+            int jay = j;
+            int ayy = rows-i;
+            rotVec[j][rows-i-1] = imageVec[i][j];
+        }
+    }
+    imageVec = rotVec;
+    int temp = rows;
+    rows = cols;
+    cols = temp;
+
+}
+
 
 // TODO: add effect methods below here
 

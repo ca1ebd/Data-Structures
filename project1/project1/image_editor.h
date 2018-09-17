@@ -63,7 +63,10 @@ public:
         FLATTEN_BLUE,
         EXTREME_CONTRAST,
         FLIP_HORIZONTAL,
-        FLIP_VERTICAL
+        FLIP_VERTICAL,
+        ENLARGE,
+        REDUCE,
+        ROTATE
     };
 
     const vector<string> actions = {
@@ -76,7 +79,10 @@ public:
         "flatten blue",
         "extreme contrast",
         "flip horizontally",
-        "flip vertically"
+        "flip vertically",
+        "enlarge",
+        "reduce",
+        "rotate"
     };
     
 private:
@@ -94,6 +100,9 @@ private:
     void make_ext_contrast();
     void flip_horizontal();
     void flip_vertical();
+    void enlarge();
+    void reduce();
+    void rotate();
 
     // TODO: declare methods to apply effects to image
 };

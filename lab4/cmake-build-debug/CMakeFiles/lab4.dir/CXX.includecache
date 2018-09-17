@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/cdud8/Desktop/Data-Structures/lab4/solution3.cpp
+string
+-
+iostream
+-
+vector
+-
+algorithm
+-
+

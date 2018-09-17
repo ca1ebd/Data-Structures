@@ -12,11 +12,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="81d08f87-5721-4014-aad3-b90b52c79be1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../lab2/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lab2/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lab2/part2.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../lab2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../lab3/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab3/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../lab3/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/cmake-build-debug/CMakeFiles/image_editor.dir/image_editor.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/project1/cmake-build-debug/CMakeFiles/image_editor.dir/image_editor.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/cmake-build-debug/CMakeFiles/image_editor.dir/main.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/project1/cmake-build-debug/CMakeFiles/image_editor.dir/main.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/cmake-build-debug/CMakeFiles/image_editor.dir/objects.a" beforeDir="false" afterPath="$PROJECT_DIR$/project1/cmake-build-debug/CMakeFiles/image_editor.dir/objects.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/cmake-build-debug/bin/image_editor.exe" beforeDir="false" afterPath="$PROJECT_DIR$/project1/cmake-build-debug/bin/image_editor.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/image_editor.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/project1/image_editor.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/image_editor.h" beforeDir="false" afterPath="$PROJECT_DIR$/project1/image_editor.h" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/project1/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -30,12 +35,13 @@
     <session id="-1075710790">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="4" />
           <entry key="project.open.time.0" value="1" />
-          <entry key="project.open.time.10" value="2" />
+          <entry key="project.open.time.10" value="3" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.3" value="1" />
-          <entry key="project.opened" value="5" />
+          <entry key="project.open.time.8" value="1" />
+          <entry key="project.opened" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -56,15 +62,16 @@
       <usages-collector id="statistics.cidr.testingFrameworks.usages" />
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cpp" value="1856" />
-          <entry key="h" value="279" />
+          <entry key="cpp" value="2792" />
+          <entry key="h" value="411" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="ObjectiveC" value="2135" />
+          <entry key="ObjectiveC" value="3203" />
         </counts>
       </usages-collector>
+      <usages-collector id="statistics.vcs.git.usages" />
     </session>
   </component>
   <component name="FileEditorManager">
@@ -72,41 +79,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/project1/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3400">
-              <caret line="200" column="40" selection-start-line="200" selection-start-column="40" selection-end-line="200" selection-end-column="40" />
+            <state relative-caret-position="3451">
+              <caret line="203" column="59" selection-start-line="203" selection-start-column="59" selection-end-line="203" selection-end-column="59" />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/project1/drawing_window.cpp">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/project1/image_editor.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="277">
-              <caret line="235" column="47" lean-forward="true" selection-start-line="235" selection-start-column="47" selection-end-line="235" selection-end-column="47" />
+            <state relative-caret-position="17">
+              <caret line="27" column="29" selection-start-line="27" selection-start-column="29" selection-end-line="27" selection-end-column="29" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/project1/sampleinputs/test.ppm">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/project1/sampleinputs/blocks.ppm">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/project1/image_editor.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1496">
-              <caret line="88" column="4" selection-start-line="88" selection-start-column="4" selection-end-line="95" selection-end-column="25" />
+            <state relative-caret-position="1156">
+              <caret line="68" column="14" selection-start-line="68" selection-start-column="14" selection-end-line="68" selection-end-column="14" />
               <folding>
                 <element signature="e#197#214#0" expanded="true" />
               </folding>
@@ -174,7 +166,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/project1/CMakeLists.txt" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="CPPToolchains" />
+    <property name="settings.editor.selected.configurable" value="preferences.externalDependencies" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -218,17 +210,20 @@
       <workItem from="1536174029941" duration="2472000" />
       <workItem from="1536186120166" duration="5519000" />
       <workItem from="1536278233541" duration="1172000" />
-      <workItem from="1536297593719" duration="669000" />
+      <workItem from="1536297593719" duration="7369000" />
+      <workItem from="1536984060295" duration="1768000" />
+      <workItem from="1537154447547" duration="24000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10461000" />
+    <option name="totallyTimeSpent" value="18953000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1292" height="692" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.116504855" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1197411" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -257,32 +252,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/project1/main.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3400">
-          <caret line="200" column="40" selection-start-line="200" selection-start-column="40" selection-end-line="200" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project1/drawing_window.cpp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project1/sampleinputs/test.ppm">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project1/sampleinputs/blocks.ppm">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project1/image_editor.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1496">
-          <caret line="88" column="4" selection-start-line="88" selection-start-column="4" selection-end-line="95" selection-end-column="25" />
-          <folding>
-            <element signature="e#197#214#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Downloads/x86_64-6.1.0-release-posix-seh-rt_v5-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/6.1.0/include/c++/bits/stl_algobase.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-669">
@@ -290,10 +259,38 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/project1/drawing_window.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1377" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project1/sampleinputs/blocks.ppm">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project1/sampleinputs/test.ppm">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project1/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3451">
+          <caret line="203" column="59" selection-start-line="203" selection-start-column="59" selection-end-line="203" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project1/image_editor.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1156">
+          <caret line="68" column="14" selection-start-line="68" selection-start-column="14" selection-end-line="68" selection-end-column="14" />
+          <folding>
+            <element signature="e#197#214#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/project1/image_editor.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="277">
-          <caret line="235" column="47" lean-forward="true" selection-start-line="235" selection-start-column="47" selection-end-line="235" selection-end-column="47" />
+        <state relative-caret-position="17">
+          <caret line="27" column="29" selection-start-line="27" selection-start-column="29" selection-end-line="27" selection-end-column="29" />
         </state>
       </provider>
     </entry>

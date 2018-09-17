@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/cdud8/Desktop/Data-Structures/lab3/lab3.cpp
+iostream
+-
+vector
+-
+utility
+-
+cstdlib
+-
+ctime
+-
+
