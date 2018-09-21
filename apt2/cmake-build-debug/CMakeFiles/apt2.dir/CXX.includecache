@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/calebdudley/CLionProjects/Data-Structures/apt2/Anagrams/main.cpp
+vector
+-
+string
+-
+locale
+-
+iostream
+-
+algorithm
+-
+
+C:/Users/calebdudley/CLionProjects/Data-Structures/apt2/CarrotBoxes/main.cpp
+vector
+-
+

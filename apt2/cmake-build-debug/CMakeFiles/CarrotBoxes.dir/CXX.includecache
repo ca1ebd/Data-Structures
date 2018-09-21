@@ -6,13 +6,9 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/cdud8/Desktop/Data-Structures/lab4/solution3.cpp
-string
--
-iostream
--
+C:/Users/calebdudley/CLionProjects/Data-Structures/apt2/CarrotBoxes/main.cpp
 vector
 -
-algorithm
+iostream
 -
 
