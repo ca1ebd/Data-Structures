@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+Z:/Data-Structures/lab06/Queue.cpp
+
+Z:/Data-Structures/lab06/Queue.h
+cstdlib
+-
+iostream
+-
+Queue.cpp
+Z:/Data-Structures/lab06/Queue.cpp
+
+Z:/Data-Structures/lab06/main.cpp
+string
+-
+iostream
+-
+Queue.h
+Z:/Data-Structures/lab06/Queue.h
+

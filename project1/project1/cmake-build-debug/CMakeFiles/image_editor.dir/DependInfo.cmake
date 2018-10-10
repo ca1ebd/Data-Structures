@@ -4,9 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/cdud8/Desktop/Data-Structures/project1/project1/drawing_window.cpp" "C:/Users/cdud8/Desktop/Data-Structures/project1/project1/cmake-build-debug/CMakeFiles/image_editor.dir/drawing_window.cpp.obj"
-  "C:/Users/cdud8/Desktop/Data-Structures/project1/project1/image_editor.cpp" "C:/Users/cdud8/Desktop/Data-Structures/project1/project1/cmake-build-debug/CMakeFiles/image_editor.dir/image_editor.cpp.obj"
-  "C:/Users/cdud8/Desktop/Data-Structures/project1/project1/main.cpp" "C:/Users/cdud8/Desktop/Data-Structures/project1/project1/cmake-build-debug/CMakeFiles/image_editor.dir/main.cpp.obj"
+  "Z:/Data-Structures/project1/project1/drawing_window.cpp" "Z:/Data-Structures/project1/project1/cmake-build-debug/CMakeFiles/image_editor.dir/drawing_window.cpp.obj"
+  "Z:/Data-Structures/project1/project1/image_editor.cpp" "Z:/Data-Structures/project1/project1/cmake-build-debug/CMakeFiles/image_editor.dir/image_editor.cpp.obj"
+  "Z:/Data-Structures/project1/project1/main.cpp" "Z:/Data-Structures/project1/project1/cmake-build-debug/CMakeFiles/image_editor.dir/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
