@@ -16,6 +16,7 @@
 #include <algorithm>  // for find()
 #include <vector>
 #include <set>
+#include <unordered_set>
 
 using namespace std;
 
@@ -39,7 +40,7 @@ int main() {
     }
     
     vector<string> words_vec;
-    set<string> words_set;
+    unordered_set<string> words_set;
     string word;
     while (!fin.eof()) {
         getline(fin, word);
@@ -70,7 +71,8 @@ int main() {
     /************** CODE TO BE TIMED ***************/
     count = 0;
     for (string s: test_words) {
-        if (find(words_vec.begin(), words_vec.end(), s) != words_vec.end()) count++;
+        words_set.find(s);
+        count++;
     }
     /***********************************************/
     stop = clock();

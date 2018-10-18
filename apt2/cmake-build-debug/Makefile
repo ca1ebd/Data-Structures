@@ -38,19 +38,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "C:\Program Files (x86)\JetBrains\CLion 2018.2.2\bin\cmake\win\bin\cmake.exe"
+CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2018.2.2\bin\cmake\win\bin\cmake.exe"
 
 # The command to remove a file.
-RM = "C:\Program Files (x86)\JetBrains\CLion 2018.2.2\bin\cmake\win\bin\cmake.exe" -E remove -f
+RM = "C:\Program Files\JetBrains\CLion 2018.2.2\bin\cmake\win\bin\cmake.exe" -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\calebdudley\CLionProjects\Data-Structures\apt2
+CMAKE_SOURCE_DIR = C:\Users\cdud8\Desktop\Data-Structures\apt2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\calebdudley\CLionProjects\Data-Structures\apt2\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\cdud8\Desktop\Data-Structures\apt2\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -58,7 +58,7 @@ CMAKE_BINARY_DIR = C:\Users\calebdudley\CLionProjects\Data-Structures\apt2\cmake
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	"C:\Program Files (x86)\JetBrains\CLion 2018.2.2\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
+	"C:\Program Files\JetBrains\CLion 2018.2.2\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -69,7 +69,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	"C:\Program Files (x86)\JetBrains\CLion 2018.2.2\bin\cmake\win\bin\cmake.exe" -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	"C:\Program Files\JetBrains\CLion 2018.2.2\bin\cmake\win\bin\cmake.exe" -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -79,9 +79,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\calebdudley\CLionProjects\Data-Structures\apt2\cmake-build-debug\CMakeFiles C:\Users\calebdudley\CLionProjects\Data-Structures\apt2\cmake-build-debug\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\cdud8\Desktop\Data-Structures\apt2\cmake-build-debug\CMakeFiles C:\Users\cdud8\Desktop\Data-Structures\apt2\cmake-build-debug\CMakeFiles\progress.marks
 	$(MAKE) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\calebdudley\CLionProjects\Data-Structures\apt2\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\cdud8\Desktop\Data-Structures\apt2\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -134,6 +134,19 @@ Anagrams: cmake_check_build_system
 Anagrams/fast:
 	$(MAKE) -f CMakeFiles\Anagrams.dir\build.make CMakeFiles/Anagrams.dir/build
 .PHONY : Anagrams/fast
+
+#=============================================================================
+# Target rules for targets named CirclesCountry
+
+# Build rule for target.
+CirclesCountry: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 CirclesCountry
+.PHONY : CirclesCountry
+
+# fast build rule for target.
+CirclesCountry/fast:
+	$(MAKE) -f CMakeFiles\CirclesCountry.dir\build.make CMakeFiles/CirclesCountry.dir/build
+.PHONY : CirclesCountry/fast
 
 Anagrams/main.obj: Anagrams/main.cpp.obj
 
@@ -195,7 +208,7 @@ CirclesCountry/main.obj: CirclesCountry/main.cpp.obj
 
 # target to build an object file
 CirclesCountry/main.cpp.obj:
-	$(MAKE) -f CMakeFiles\Anagrams.dir\build.make CMakeFiles/Anagrams.dir/CirclesCountry/main.cpp.obj
+	$(MAKE) -f CMakeFiles\CirclesCountry.dir\build.make CMakeFiles/CirclesCountry.dir/CirclesCountry/main.cpp.obj
 .PHONY : CirclesCountry/main.cpp.obj
 
 CirclesCountry/main.i: CirclesCountry/main.cpp.i
@@ -204,7 +217,7 @@ CirclesCountry/main.i: CirclesCountry/main.cpp.i
 
 # target to preprocess a source file
 CirclesCountry/main.cpp.i:
-	$(MAKE) -f CMakeFiles\Anagrams.dir\build.make CMakeFiles/Anagrams.dir/CirclesCountry/main.cpp.i
+	$(MAKE) -f CMakeFiles\CirclesCountry.dir\build.make CMakeFiles/CirclesCountry.dir/CirclesCountry/main.cpp.i
 .PHONY : CirclesCountry/main.cpp.i
 
 CirclesCountry/main.s: CirclesCountry/main.cpp.s
@@ -213,7 +226,7 @@ CirclesCountry/main.s: CirclesCountry/main.cpp.s
 
 # target to generate assembly for a file
 CirclesCountry/main.cpp.s:
-	$(MAKE) -f CMakeFiles\Anagrams.dir\build.make CMakeFiles/Anagrams.dir/CirclesCountry/main.cpp.s
+	$(MAKE) -f CMakeFiles\CirclesCountry.dir\build.make CMakeFiles/CirclesCountry.dir/CirclesCountry/main.cpp.s
 .PHONY : CirclesCountry/main.cpp.s
 
 # Help Target
@@ -224,6 +237,7 @@ help:
 	@echo ... depend
 	@echo ... CarrotBoxes
 	@echo ... Anagrams
+	@echo ... CirclesCountry
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... Anagrams/main.obj

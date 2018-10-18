@@ -23,12 +23,15 @@ vector<string> anagrams(vector<string> phrases) {
 
 
     for(int i=0; i<phrases.size(); i++){
-        for(int j=1; j<phrases.size(); j++){
+        for(int j=i+1; j<phrases.size()-1; j++){
             if(phrases[i] == phrases[j]){
-                cout << "Match: " << origVec[i] << " = " << origVec[j] << endl;
+                //cout << "Match: " << origVec[i] << " = " << origVec[j] << endl;
+                origVec.erase(origVec.begin() + j);
             }
         }
     }
+
+    //return origVec;
 
 
 
@@ -43,7 +46,7 @@ vector<string> anagrams(vector<string> phrases) {
 }
 
 int main() {
-    vector<string> testVec = {"Aaagmnrs", "TopCoder", "anagrams", "Drop Cote"};
+    vector<string> testVec = {"J", "XSqzaLmAIFMlBavo XqnYemQxT xVIk FyGmpjc IU", "mEaYQinYagSLuXqfmXtiPXxCVmqVzLbakiOjM F", "aiamXkNgBvxMCYLuFeFlIj OtQSmaXixYvzpQmQ"};
     anagrams(testVec);
     return 0;
 }

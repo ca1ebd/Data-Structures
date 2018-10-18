@@ -43,6 +43,7 @@ int main() {
     menuWithPrices["Sundae"] = 8;
     menuWithPrices["Hotdog"] = 2;
     menuWithPrices["Tacos"] = 4;
+    menuWithPrices["Apple"] = 2;
 
     string input;
     cout << "What would you like to order today? Please choose from our menu. Type quit to complete order" << endl;

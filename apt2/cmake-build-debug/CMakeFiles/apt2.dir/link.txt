@@ -1,3 +1,0 @@
-"C:\Program Files (x86)\JetBrains\CLion 2018.2.2\bin\cmake\win\bin\cmake.exe" -E remove -f CMakeFiles\apt2.dir/objects.a
-C:\mingw-w64\mingw64\bin\ar.exe cr CMakeFiles\apt2.dir/objects.a @CMakeFiles\apt2.dir\objects1.rsp
-C:\mingw-w64\mingw64\bin\g++.exe -g   -Wl,--whole-archive CMakeFiles\apt2.dir/objects.a -Wl,--no-whole-archive  -o apt2.exe -Wl,--out-implib,libapt2.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\apt2.dir\linklibs.rsp

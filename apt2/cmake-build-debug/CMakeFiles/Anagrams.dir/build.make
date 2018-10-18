@@ -33,19 +33,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "C:\Program Files (x86)\JetBrains\CLion 2018.2.2\bin\cmake\win\bin\cmake.exe"
+CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2018.2.2\bin\cmake\win\bin\cmake.exe"
 
 # The command to remove a file.
-RM = "C:\Program Files (x86)\JetBrains\CLion 2018.2.2\bin\cmake\win\bin\cmake.exe" -E remove -f
+RM = "C:\Program Files\JetBrains\CLion 2018.2.2\bin\cmake\win\bin\cmake.exe" -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\calebdudley\CLionProjects\Data-Structures\apt2
+CMAKE_SOURCE_DIR = C:\Users\cdud8\Desktop\Data-Structures\apt2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\calebdudley\CLionProjects\Data-Structures\apt2\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\cdud8\Desktop\Data-Structures\apt2\cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/Anagrams.dir/depend.make
@@ -58,45 +58,30 @@ include CMakeFiles/Anagrams.dir/flags.make
 
 CMakeFiles/Anagrams.dir/Anagrams/main.cpp.obj: CMakeFiles/Anagrams.dir/flags.make
 CMakeFiles/Anagrams.dir/Anagrams/main.cpp.obj: ../Anagrams/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\calebdudley\CLionProjects\Data-Structures\apt2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Anagrams.dir/Anagrams/main.cpp.obj"
-	C:\mingw-w64\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Anagrams.dir\Anagrams\main.cpp.obj -c C:\Users\calebdudley\CLionProjects\Data-Structures\apt2\Anagrams\main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\cdud8\Desktop\Data-Structures\apt2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Anagrams.dir/Anagrams/main.cpp.obj"
+	C:\Users\cdud8\Downloads\x86_64-6.1.0-release-posix-seh-rt_v5-rev0\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Anagrams.dir\Anagrams\main.cpp.obj -c C:\Users\cdud8\Desktop\Data-Structures\apt2\Anagrams\main.cpp
 
 CMakeFiles/Anagrams.dir/Anagrams/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Anagrams.dir/Anagrams/main.cpp.i"
-	C:\mingw-w64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\calebdudley\CLionProjects\Data-Structures\apt2\Anagrams\main.cpp > CMakeFiles\Anagrams.dir\Anagrams\main.cpp.i
+	C:\Users\cdud8\Downloads\x86_64-6.1.0-release-posix-seh-rt_v5-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\cdud8\Desktop\Data-Structures\apt2\Anagrams\main.cpp > CMakeFiles\Anagrams.dir\Anagrams\main.cpp.i
 
 CMakeFiles/Anagrams.dir/Anagrams/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Anagrams.dir/Anagrams/main.cpp.s"
-	C:\mingw-w64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\calebdudley\CLionProjects\Data-Structures\apt2\Anagrams\main.cpp -o CMakeFiles\Anagrams.dir\Anagrams\main.cpp.s
-
-CMakeFiles/Anagrams.dir/CirclesCountry/main.cpp.obj: CMakeFiles/Anagrams.dir/flags.make
-CMakeFiles/Anagrams.dir/CirclesCountry/main.cpp.obj: ../CirclesCountry/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\calebdudley\CLionProjects\Data-Structures\apt2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Anagrams.dir/CirclesCountry/main.cpp.obj"
-	C:\mingw-w64\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Anagrams.dir\CirclesCountry\main.cpp.obj -c C:\Users\calebdudley\CLionProjects\Data-Structures\apt2\CirclesCountry\main.cpp
-
-CMakeFiles/Anagrams.dir/CirclesCountry/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Anagrams.dir/CirclesCountry/main.cpp.i"
-	C:\mingw-w64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\calebdudley\CLionProjects\Data-Structures\apt2\CirclesCountry\main.cpp > CMakeFiles\Anagrams.dir\CirclesCountry\main.cpp.i
-
-CMakeFiles/Anagrams.dir/CirclesCountry/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Anagrams.dir/CirclesCountry/main.cpp.s"
-	C:\mingw-w64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\calebdudley\CLionProjects\Data-Structures\apt2\CirclesCountry\main.cpp -o CMakeFiles\Anagrams.dir\CirclesCountry\main.cpp.s
+	C:\Users\cdud8\Downloads\x86_64-6.1.0-release-posix-seh-rt_v5-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\cdud8\Desktop\Data-Structures\apt2\Anagrams\main.cpp -o CMakeFiles\Anagrams.dir\Anagrams\main.cpp.s
 
 # Object files for target Anagrams
 Anagrams_OBJECTS = \
-"CMakeFiles/Anagrams.dir/Anagrams/main.cpp.obj" \
-"CMakeFiles/Anagrams.dir/CirclesCountry/main.cpp.obj"
+"CMakeFiles/Anagrams.dir/Anagrams/main.cpp.obj"
 
 # External object files for target Anagrams
 Anagrams_EXTERNAL_OBJECTS =
 
 Anagrams.exe: CMakeFiles/Anagrams.dir/Anagrams/main.cpp.obj
-Anagrams.exe: CMakeFiles/Anagrams.dir/CirclesCountry/main.cpp.obj
 Anagrams.exe: CMakeFiles/Anagrams.dir/build.make
 Anagrams.exe: CMakeFiles/Anagrams.dir/linklibs.rsp
 Anagrams.exe: CMakeFiles/Anagrams.dir/objects1.rsp
 Anagrams.exe: CMakeFiles/Anagrams.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\calebdudley\CLionProjects\Data-Structures\apt2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable Anagrams.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\cdud8\Desktop\Data-Structures\apt2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Anagrams.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\Anagrams.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -109,6 +94,6 @@ CMakeFiles/Anagrams.dir/clean:
 .PHONY : CMakeFiles/Anagrams.dir/clean
 
 CMakeFiles/Anagrams.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\calebdudley\CLionProjects\Data-Structures\apt2 C:\Users\calebdudley\CLionProjects\Data-Structures\apt2 C:\Users\calebdudley\CLionProjects\Data-Structures\apt2\cmake-build-debug C:\Users\calebdudley\CLionProjects\Data-Structures\apt2\cmake-build-debug C:\Users\calebdudley\CLionProjects\Data-Structures\apt2\cmake-build-debug\CMakeFiles\Anagrams.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\cdud8\Desktop\Data-Structures\apt2 C:\Users\cdud8\Desktop\Data-Structures\apt2 C:\Users\cdud8\Desktop\Data-Structures\apt2\cmake-build-debug C:\Users\cdud8\Desktop\Data-Structures\apt2\cmake-build-debug C:\Users\cdud8\Desktop\Data-Structures\apt2\cmake-build-debug\CMakeFiles\Anagrams.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/Anagrams.dir/depend
 

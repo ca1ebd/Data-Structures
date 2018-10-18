@@ -1,6 +1,5 @@
 file(REMOVE_RECURSE
   "CMakeFiles/Anagrams.dir/Anagrams/main.cpp.obj"
-  "CMakeFiles/Anagrams.dir/CirclesCountry/main.cpp.obj"
   "Anagrams.pdb"
   "Anagrams.exe"
   "Anagrams.exe.manifest"

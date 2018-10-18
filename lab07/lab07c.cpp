@@ -19,7 +19,10 @@ using namespace std;
 // TODO: Implement your encryption function!
 inline int encrypt (string str) {
     int output = 0;
-    return output;
+    for(int i=0; i<str.size(); i++){
+        output+=int(str[i]);
+    }
+    return output%1000;
 }
 
 int main() {
@@ -53,7 +56,11 @@ int main() {
     for (string i : vec) {
         cout << i << " ";
     }
+    vector<string> myVec = encryptionMap[378];
+    //cout << myVec[0];
     cout << endl;
-
+    cout << encrypt("hello") << endl;
+    cout << encrypt("trustworthy") << endl;
+    cout << encrypt("airworthy") << endl;
     return 0;
 }
