@@ -33,19 +33,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2018.2.2\bin\cmake\win\bin\cmake.exe"
+CMAKE_COMMAND = "C:\Program Files (x86)\JetBrains\CLion 2018.2.2\bin\cmake\win\bin\cmake.exe"
 
 # The command to remove a file.
-RM = "C:\Program Files\JetBrains\CLion 2018.2.2\bin\cmake\win\bin\cmake.exe" -E remove -f
+RM = "C:\Program Files (x86)\JetBrains\CLion 2018.2.2\bin\cmake\win\bin\cmake.exe" -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\cdud8\Desktop\Data-Structures\project1\project1
+CMAKE_SOURCE_DIR = Z:\Data-Structures\project1\project1
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\cdud8\Desktop\Data-Structures\project1\project1\cmake-build-debug
+CMAKE_BINARY_DIR = Z:\Data-Structures\project1\project1\cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/image_editor.dir/depend.make
@@ -59,44 +59,44 @@ include CMakeFiles/image_editor.dir/flags.make
 CMakeFiles/image_editor.dir/main.cpp.obj: CMakeFiles/image_editor.dir/flags.make
 CMakeFiles/image_editor.dir/main.cpp.obj: CMakeFiles/image_editor.dir/includes_CXX.rsp
 CMakeFiles/image_editor.dir/main.cpp.obj: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\cdud8\Desktop\Data-Structures\project1\project1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/image_editor.dir/main.cpp.obj"
-	C:\Users\cdud8\Downloads\x86_64-6.1.0-release-posix-seh-rt_v5-rev0\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\image_editor.dir\main.cpp.obj -c C:\Users\cdud8\Desktop\Data-Structures\project1\project1\main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=Z:\Data-Structures\project1\project1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/image_editor.dir/main.cpp.obj"
+	C:\mingw-w64\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\image_editor.dir\main.cpp.obj -c Z:\Data-Structures\project1\project1\main.cpp
 
 CMakeFiles/image_editor.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/image_editor.dir/main.cpp.i"
-	C:\Users\cdud8\Downloads\x86_64-6.1.0-release-posix-seh-rt_v5-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\cdud8\Desktop\Data-Structures\project1\project1\main.cpp > CMakeFiles\image_editor.dir\main.cpp.i
+	C:\mingw-w64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E Z:\Data-Structures\project1\project1\main.cpp > CMakeFiles\image_editor.dir\main.cpp.i
 
 CMakeFiles/image_editor.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/image_editor.dir/main.cpp.s"
-	C:\Users\cdud8\Downloads\x86_64-6.1.0-release-posix-seh-rt_v5-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\cdud8\Desktop\Data-Structures\project1\project1\main.cpp -o CMakeFiles\image_editor.dir\main.cpp.s
+	C:\mingw-w64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S Z:\Data-Structures\project1\project1\main.cpp -o CMakeFiles\image_editor.dir\main.cpp.s
 
 CMakeFiles/image_editor.dir/image_editor.cpp.obj: CMakeFiles/image_editor.dir/flags.make
 CMakeFiles/image_editor.dir/image_editor.cpp.obj: CMakeFiles/image_editor.dir/includes_CXX.rsp
 CMakeFiles/image_editor.dir/image_editor.cpp.obj: ../image_editor.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\cdud8\Desktop\Data-Structures\project1\project1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/image_editor.dir/image_editor.cpp.obj"
-	C:\Users\cdud8\Downloads\x86_64-6.1.0-release-posix-seh-rt_v5-rev0\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\image_editor.dir\image_editor.cpp.obj -c C:\Users\cdud8\Desktop\Data-Structures\project1\project1\image_editor.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=Z:\Data-Structures\project1\project1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/image_editor.dir/image_editor.cpp.obj"
+	C:\mingw-w64\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\image_editor.dir\image_editor.cpp.obj -c Z:\Data-Structures\project1\project1\image_editor.cpp
 
 CMakeFiles/image_editor.dir/image_editor.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/image_editor.dir/image_editor.cpp.i"
-	C:\Users\cdud8\Downloads\x86_64-6.1.0-release-posix-seh-rt_v5-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\cdud8\Desktop\Data-Structures\project1\project1\image_editor.cpp > CMakeFiles\image_editor.dir\image_editor.cpp.i
+	C:\mingw-w64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E Z:\Data-Structures\project1\project1\image_editor.cpp > CMakeFiles\image_editor.dir\image_editor.cpp.i
 
 CMakeFiles/image_editor.dir/image_editor.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/image_editor.dir/image_editor.cpp.s"
-	C:\Users\cdud8\Downloads\x86_64-6.1.0-release-posix-seh-rt_v5-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\cdud8\Desktop\Data-Structures\project1\project1\image_editor.cpp -o CMakeFiles\image_editor.dir\image_editor.cpp.s
+	C:\mingw-w64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S Z:\Data-Structures\project1\project1\image_editor.cpp -o CMakeFiles\image_editor.dir\image_editor.cpp.s
 
 CMakeFiles/image_editor.dir/drawing_window.cpp.obj: CMakeFiles/image_editor.dir/flags.make
 CMakeFiles/image_editor.dir/drawing_window.cpp.obj: CMakeFiles/image_editor.dir/includes_CXX.rsp
 CMakeFiles/image_editor.dir/drawing_window.cpp.obj: ../drawing_window.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\cdud8\Desktop\Data-Structures\project1\project1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/image_editor.dir/drawing_window.cpp.obj"
-	C:\Users\cdud8\Downloads\x86_64-6.1.0-release-posix-seh-rt_v5-rev0\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\image_editor.dir\drawing_window.cpp.obj -c C:\Users\cdud8\Desktop\Data-Structures\project1\project1\drawing_window.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=Z:\Data-Structures\project1\project1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/image_editor.dir/drawing_window.cpp.obj"
+	C:\mingw-w64\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\image_editor.dir\drawing_window.cpp.obj -c Z:\Data-Structures\project1\project1\drawing_window.cpp
 
 CMakeFiles/image_editor.dir/drawing_window.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/image_editor.dir/drawing_window.cpp.i"
-	C:\Users\cdud8\Downloads\x86_64-6.1.0-release-posix-seh-rt_v5-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\cdud8\Desktop\Data-Structures\project1\project1\drawing_window.cpp > CMakeFiles\image_editor.dir\drawing_window.cpp.i
+	C:\mingw-w64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E Z:\Data-Structures\project1\project1\drawing_window.cpp > CMakeFiles\image_editor.dir\drawing_window.cpp.i
 
 CMakeFiles/image_editor.dir/drawing_window.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/image_editor.dir/drawing_window.cpp.s"
-	C:\Users\cdud8\Downloads\x86_64-6.1.0-release-posix-seh-rt_v5-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\cdud8\Desktop\Data-Structures\project1\project1\drawing_window.cpp -o CMakeFiles\image_editor.dir\drawing_window.cpp.s
+	C:\mingw-w64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S Z:\Data-Structures\project1\project1\drawing_window.cpp -o CMakeFiles\image_editor.dir\drawing_window.cpp.s
 
 # Object files for target image_editor
 image_editor_OBJECTS = \
@@ -114,7 +114,7 @@ bin/image_editor.exe: CMakeFiles/image_editor.dir/build.make
 bin/image_editor.exe: CMakeFiles/image_editor.dir/linklibs.rsp
 bin/image_editor.exe: CMakeFiles/image_editor.dir/objects1.rsp
 bin/image_editor.exe: CMakeFiles/image_editor.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\cdud8\Desktop\Data-Structures\project1\project1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable bin\image_editor.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=Z:\Data-Structures\project1\project1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable bin\image_editor.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\image_editor.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -127,6 +127,6 @@ CMakeFiles/image_editor.dir/clean:
 .PHONY : CMakeFiles/image_editor.dir/clean
 
 CMakeFiles/image_editor.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\cdud8\Desktop\Data-Structures\project1\project1 C:\Users\cdud8\Desktop\Data-Structures\project1\project1 C:\Users\cdud8\Desktop\Data-Structures\project1\project1\cmake-build-debug C:\Users\cdud8\Desktop\Data-Structures\project1\project1\cmake-build-debug C:\Users\cdud8\Desktop\Data-Structures\project1\project1\cmake-build-debug\CMakeFiles\image_editor.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" Z:\Data-Structures\project1\project1 Z:\Data-Structures\project1\project1 Z:\Data-Structures\project1\project1\cmake-build-debug Z:\Data-Structures\project1\project1\cmake-build-debug Z:\Data-Structures\project1\project1\cmake-build-debug\CMakeFiles\image_editor.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/image_editor.dir/depend
 
