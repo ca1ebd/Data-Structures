@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/cdud8/Desktop/Data-Structures/project2/main.cpp
+iostream
+-
+fstream
+-
+string
+-
+maze_solver.h
+C:/Users/cdud8/Desktop/Data-Structures/project2/maze_solver.h
+
+C:/Users/cdud8/Desktop/Data-Structures/project2/maze_solver.h
+iostream
+-
+vector
+-
+stack
+-
+queue
+-
+

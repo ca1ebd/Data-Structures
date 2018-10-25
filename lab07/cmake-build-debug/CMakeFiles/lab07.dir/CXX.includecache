@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/cdud8/Desktop/Data-Structures/lab07/lab07c.cpp
+iostream
+-
+fstream
+-
+string
+-
+map
+-
+vector
+-
+cmath
+-
+

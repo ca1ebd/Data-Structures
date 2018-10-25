@@ -1,4 +1,4 @@
-# Install script for directory: Z:/Data-Structures/lab06
+# Install script for directory: C:/Users/cdud8/Desktop/Data-Structures/lab06
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "Z:/Data-Structures/lab06/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Users/cdud8/Desktop/Data-Structures/lab06/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

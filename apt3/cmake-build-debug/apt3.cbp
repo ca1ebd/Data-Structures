@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="apt3"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/Users/cdud8/Desktop/Data-Structures/apt3/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/Users/cdud8/Downloads/x86_64-6.1.0-release-posix-seh-rt_v5-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cdud8/Desktop/Data-Structures/apt3/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/Users/cdud8/Downloads/x86_64-6.1.0-release-posix-seh-rt_v5-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cdud8/Desktop/Data-Structures/apt3/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/cdud8/Downloads/x86_64-6.1.0-release-posix-seh-rt_v5-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cdud8/Desktop/Data-Structures/apt3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/cdud8/Downloads/x86_64-6.1.0-release-posix-seh-rt_v5-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cdud8/Desktop/Data-Structures/apt3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="apt3">
+				<Option output="C:/Users/cdud8/Desktop/Data-Structures/apt3/cmake-build-debug/apt3.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/cdud8/Desktop/Data-Structures/apt3/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/cdud8/Downloads/x86_64-6.1.0-release-posix-seh-rt_v5-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/6.1.0/include/c++"/>
+					<Add directory="C:/Users/cdud8/Downloads/x86_64-6.1.0-release-posix-seh-rt_v5-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/6.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Users/cdud8/Downloads/x86_64-6.1.0-release-posix-seh-rt_v5-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/6.1.0/include/c++/backward"/>
+					<Add directory="C:/Users/cdud8/Downloads/x86_64-6.1.0-release-posix-seh-rt_v5-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/6.1.0/include"/>
+					<Add directory="C:/Users/cdud8/Downloads/x86_64-6.1.0-release-posix-seh-rt_v5-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/6.1.0/include-fixed"/>
+					<Add directory="C:/Users/cdud8/Downloads/x86_64-6.1.0-release-posix-seh-rt_v5-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/6.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Users/cdud8/Downloads/x86_64-6.1.0-release-posix-seh-rt_v5-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cdud8/Desktop/Data-Structures/apt3/cmake-build-debug/Makefile&quot;  VERBOSE=1 apt3"/>
+					<CompileFile command="C:/Users/cdud8/Downloads/x86_64-6.1.0-release-posix-seh-rt_v5-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cdud8/Desktop/Data-Structures/apt3/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/cdud8/Downloads/x86_64-6.1.0-release-posix-seh-rt_v5-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cdud8/Desktop/Data-Structures/apt3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/cdud8/Downloads/x86_64-6.1.0-release-posix-seh-rt_v5-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cdud8/Desktop/Data-Structures/apt3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="apt3/fast">
+				<Option output="C:/Users/cdud8/Desktop/Data-Structures/apt3/cmake-build-debug/apt3.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/cdud8/Desktop/Data-Structures/apt3/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/cdud8/Downloads/x86_64-6.1.0-release-posix-seh-rt_v5-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/6.1.0/include/c++"/>
+					<Add directory="C:/Users/cdud8/Downloads/x86_64-6.1.0-release-posix-seh-rt_v5-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/6.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Users/cdud8/Downloads/x86_64-6.1.0-release-posix-seh-rt_v5-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/6.1.0/include/c++/backward"/>
+					<Add directory="C:/Users/cdud8/Downloads/x86_64-6.1.0-release-posix-seh-rt_v5-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/6.1.0/include"/>
+					<Add directory="C:/Users/cdud8/Downloads/x86_64-6.1.0-release-posix-seh-rt_v5-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/6.1.0/include-fixed"/>
+					<Add directory="C:/Users/cdud8/Downloads/x86_64-6.1.0-release-posix-seh-rt_v5-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/6.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Users/cdud8/Downloads/x86_64-6.1.0-release-posix-seh-rt_v5-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cdud8/Desktop/Data-Structures/apt3/cmake-build-debug/Makefile&quot;  VERBOSE=1 apt3/fast"/>
+					<CompileFile command="C:/Users/cdud8/Downloads/x86_64-6.1.0-release-posix-seh-rt_v5-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cdud8/Desktop/Data-Structures/apt3/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/cdud8/Downloads/x86_64-6.1.0-release-posix-seh-rt_v5-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cdud8/Desktop/Data-Structures/apt3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/cdud8/Downloads/x86_64-6.1.0-release-posix-seh-rt_v5-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cdud8/Desktop/Data-Structures/apt3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="C:/Users/cdud8/Desktop/Data-Structures/apt3/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/Users/cdud8/Downloads/x86_64-6.1.0-release-posix-seh-rt_v5-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cdud8/Desktop/Data-Structures/apt3/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/Users/cdud8/Downloads/x86_64-6.1.0-release-posix-seh-rt_v5-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cdud8/Desktop/Data-Structures/apt3/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/cdud8/Downloads/x86_64-6.1.0-release-posix-seh-rt_v5-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cdud8/Desktop/Data-Structures/apt3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/cdud8/Downloads/x86_64-6.1.0-release-posix-seh-rt_v5-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cdud8/Desktop/Data-Structures/apt3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Tourney">
+				<Option output="C:/Users/cdud8/Desktop/Data-Structures/apt3/cmake-build-debug/Tourney.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/cdud8/Desktop/Data-Structures/apt3/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/cdud8/Downloads/x86_64-6.1.0-release-posix-seh-rt_v5-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/6.1.0/include/c++"/>
+					<Add directory="C:/Users/cdud8/Downloads/x86_64-6.1.0-release-posix-seh-rt_v5-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/6.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Users/cdud8/Downloads/x86_64-6.1.0-release-posix-seh-rt_v5-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/6.1.0/include/c++/backward"/>
+					<Add directory="C:/Users/cdud8/Downloads/x86_64-6.1.0-release-posix-seh-rt_v5-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/6.1.0/include"/>
+					<Add directory="C:/Users/cdud8/Downloads/x86_64-6.1.0-release-posix-seh-rt_v5-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/6.1.0/include-fixed"/>
+					<Add directory="C:/Users/cdud8/Downloads/x86_64-6.1.0-release-posix-seh-rt_v5-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/6.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Users/cdud8/Downloads/x86_64-6.1.0-release-posix-seh-rt_v5-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cdud8/Desktop/Data-Structures/apt3/cmake-build-debug/Makefile&quot;  VERBOSE=1 Tourney"/>
+					<CompileFile command="C:/Users/cdud8/Downloads/x86_64-6.1.0-release-posix-seh-rt_v5-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cdud8/Desktop/Data-Structures/apt3/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/cdud8/Downloads/x86_64-6.1.0-release-posix-seh-rt_v5-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cdud8/Desktop/Data-Structures/apt3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/cdud8/Downloads/x86_64-6.1.0-release-posix-seh-rt_v5-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cdud8/Desktop/Data-Structures/apt3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Tourney/fast">
+				<Option output="C:/Users/cdud8/Desktop/Data-Structures/apt3/cmake-build-debug/Tourney.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/cdud8/Desktop/Data-Structures/apt3/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/cdud8/Downloads/x86_64-6.1.0-release-posix-seh-rt_v5-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/6.1.0/include/c++"/>
+					<Add directory="C:/Users/cdud8/Downloads/x86_64-6.1.0-release-posix-seh-rt_v5-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/6.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Users/cdud8/Downloads/x86_64-6.1.0-release-posix-seh-rt_v5-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/6.1.0/include/c++/backward"/>
+					<Add directory="C:/Users/cdud8/Downloads/x86_64-6.1.0-release-posix-seh-rt_v5-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/6.1.0/include"/>
+					<Add directory="C:/Users/cdud8/Downloads/x86_64-6.1.0-release-posix-seh-rt_v5-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/6.1.0/include-fixed"/>
+					<Add directory="C:/Users/cdud8/Downloads/x86_64-6.1.0-release-posix-seh-rt_v5-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/6.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Users/cdud8/Downloads/x86_64-6.1.0-release-posix-seh-rt_v5-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cdud8/Desktop/Data-Structures/apt3/cmake-build-debug/Makefile&quot;  VERBOSE=1 Tourney/fast"/>
+					<CompileFile command="C:/Users/cdud8/Downloads/x86_64-6.1.0-release-posix-seh-rt_v5-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cdud8/Desktop/Data-Structures/apt3/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/cdud8/Downloads/x86_64-6.1.0-release-posix-seh-rt_v5-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cdud8/Desktop/Data-Structures/apt3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/cdud8/Downloads/x86_64-6.1.0-release-posix-seh-rt_v5-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cdud8/Desktop/Data-Structures/apt3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Nesting">
+				<Option output="C:/Users/cdud8/Desktop/Data-Structures/apt3/cmake-build-debug/Nesting.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/cdud8/Desktop/Data-Structures/apt3/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/cdud8/Downloads/x86_64-6.1.0-release-posix-seh-rt_v5-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/6.1.0/include/c++"/>
+					<Add directory="C:/Users/cdud8/Downloads/x86_64-6.1.0-release-posix-seh-rt_v5-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/6.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Users/cdud8/Downloads/x86_64-6.1.0-release-posix-seh-rt_v5-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/6.1.0/include/c++/backward"/>
+					<Add directory="C:/Users/cdud8/Downloads/x86_64-6.1.0-release-posix-seh-rt_v5-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/6.1.0/include"/>
+					<Add directory="C:/Users/cdud8/Downloads/x86_64-6.1.0-release-posix-seh-rt_v5-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/6.1.0/include-fixed"/>
+					<Add directory="C:/Users/cdud8/Downloads/x86_64-6.1.0-release-posix-seh-rt_v5-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/6.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Users/cdud8/Downloads/x86_64-6.1.0-release-posix-seh-rt_v5-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cdud8/Desktop/Data-Structures/apt3/cmake-build-debug/Makefile&quot;  VERBOSE=1 Nesting"/>
+					<CompileFile command="C:/Users/cdud8/Downloads/x86_64-6.1.0-release-posix-seh-rt_v5-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cdud8/Desktop/Data-Structures/apt3/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/cdud8/Downloads/x86_64-6.1.0-release-posix-seh-rt_v5-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cdud8/Desktop/Data-Structures/apt3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/cdud8/Downloads/x86_64-6.1.0-release-posix-seh-rt_v5-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cdud8/Desktop/Data-Structures/apt3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Nesting/fast">
+				<Option output="C:/Users/cdud8/Desktop/Data-Structures/apt3/cmake-build-debug/Nesting.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/cdud8/Desktop/Data-Structures/apt3/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/cdud8/Downloads/x86_64-6.1.0-release-posix-seh-rt_v5-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/6.1.0/include/c++"/>
+					<Add directory="C:/Users/cdud8/Downloads/x86_64-6.1.0-release-posix-seh-rt_v5-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/6.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Users/cdud8/Downloads/x86_64-6.1.0-release-posix-seh-rt_v5-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/6.1.0/include/c++/backward"/>
+					<Add directory="C:/Users/cdud8/Downloads/x86_64-6.1.0-release-posix-seh-rt_v5-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/6.1.0/include"/>
+					<Add directory="C:/Users/cdud8/Downloads/x86_64-6.1.0-release-posix-seh-rt_v5-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/6.1.0/include-fixed"/>
+					<Add directory="C:/Users/cdud8/Downloads/x86_64-6.1.0-release-posix-seh-rt_v5-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/6.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Users/cdud8/Downloads/x86_64-6.1.0-release-posix-seh-rt_v5-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cdud8/Desktop/Data-Structures/apt3/cmake-build-debug/Makefile&quot;  VERBOSE=1 Nesting/fast"/>
+					<CompileFile command="C:/Users/cdud8/Downloads/x86_64-6.1.0-release-posix-seh-rt_v5-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cdud8/Desktop/Data-Structures/apt3/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/cdud8/Downloads/x86_64-6.1.0-release-posix-seh-rt_v5-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cdud8/Desktop/Data-Structures/apt3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/cdud8/Downloads/x86_64-6.1.0-release-posix-seh-rt_v5-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cdud8/Desktop/Data-Structures/apt3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="MemberCheck">
+				<Option output="C:/Users/cdud8/Desktop/Data-Structures/apt3/cmake-build-debug/MemberCheck.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/cdud8/Desktop/Data-Structures/apt3/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/cdud8/Downloads/x86_64-6.1.0-release-posix-seh-rt_v5-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/6.1.0/include/c++"/>
+					<Add directory="C:/Users/cdud8/Downloads/x86_64-6.1.0-release-posix-seh-rt_v5-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/6.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Users/cdud8/Downloads/x86_64-6.1.0-release-posix-seh-rt_v5-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/6.1.0/include/c++/backward"/>
+					<Add directory="C:/Users/cdud8/Downloads/x86_64-6.1.0-release-posix-seh-rt_v5-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/6.1.0/include"/>
+					<Add directory="C:/Users/cdud8/Downloads/x86_64-6.1.0-release-posix-seh-rt_v5-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/6.1.0/include-fixed"/>
+					<Add directory="C:/Users/cdud8/Downloads/x86_64-6.1.0-release-posix-seh-rt_v5-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/6.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Users/cdud8/Downloads/x86_64-6.1.0-release-posix-seh-rt_v5-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cdud8/Desktop/Data-Structures/apt3/cmake-build-debug/Makefile&quot;  VERBOSE=1 MemberCheck"/>
+					<CompileFile command="C:/Users/cdud8/Downloads/x86_64-6.1.0-release-posix-seh-rt_v5-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cdud8/Desktop/Data-Structures/apt3/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/cdud8/Downloads/x86_64-6.1.0-release-posix-seh-rt_v5-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cdud8/Desktop/Data-Structures/apt3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/cdud8/Downloads/x86_64-6.1.0-release-posix-seh-rt_v5-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cdud8/Desktop/Data-Structures/apt3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="MemberCheck/fast">
+				<Option output="C:/Users/cdud8/Desktop/Data-Structures/apt3/cmake-build-debug/MemberCheck.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/cdud8/Desktop/Data-Structures/apt3/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/cdud8/Downloads/x86_64-6.1.0-release-posix-seh-rt_v5-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/6.1.0/include/c++"/>
+					<Add directory="C:/Users/cdud8/Downloads/x86_64-6.1.0-release-posix-seh-rt_v5-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/6.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Users/cdud8/Downloads/x86_64-6.1.0-release-posix-seh-rt_v5-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/6.1.0/include/c++/backward"/>
+					<Add directory="C:/Users/cdud8/Downloads/x86_64-6.1.0-release-posix-seh-rt_v5-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/6.1.0/include"/>
+					<Add directory="C:/Users/cdud8/Downloads/x86_64-6.1.0-release-posix-seh-rt_v5-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/6.1.0/include-fixed"/>
+					<Add directory="C:/Users/cdud8/Downloads/x86_64-6.1.0-release-posix-seh-rt_v5-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/6.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Users/cdud8/Downloads/x86_64-6.1.0-release-posix-seh-rt_v5-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cdud8/Desktop/Data-Structures/apt3/cmake-build-debug/Makefile&quot;  VERBOSE=1 MemberCheck/fast"/>
+					<CompileFile command="C:/Users/cdud8/Downloads/x86_64-6.1.0-release-posix-seh-rt_v5-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cdud8/Desktop/Data-Structures/apt3/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/cdud8/Downloads/x86_64-6.1.0-release-posix-seh-rt_v5-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cdud8/Desktop/Data-Structures/apt3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/cdud8/Downloads/x86_64-6.1.0-release-posix-seh-rt_v5-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cdud8/Desktop/Data-Structures/apt3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Encryption">
+				<Option output="C:/Users/cdud8/Desktop/Data-Structures/apt3/cmake-build-debug/Encryption.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/cdud8/Desktop/Data-Structures/apt3/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/cdud8/Downloads/x86_64-6.1.0-release-posix-seh-rt_v5-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/6.1.0/include/c++"/>
+					<Add directory="C:/Users/cdud8/Downloads/x86_64-6.1.0-release-posix-seh-rt_v5-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/6.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Users/cdud8/Downloads/x86_64-6.1.0-release-posix-seh-rt_v5-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/6.1.0/include/c++/backward"/>
+					<Add directory="C:/Users/cdud8/Downloads/x86_64-6.1.0-release-posix-seh-rt_v5-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/6.1.0/include"/>
+					<Add directory="C:/Users/cdud8/Downloads/x86_64-6.1.0-release-posix-seh-rt_v5-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/6.1.0/include-fixed"/>
+					<Add directory="C:/Users/cdud8/Downloads/x86_64-6.1.0-release-posix-seh-rt_v5-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/6.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Users/cdud8/Downloads/x86_64-6.1.0-release-posix-seh-rt_v5-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cdud8/Desktop/Data-Structures/apt3/cmake-build-debug/Makefile&quot;  VERBOSE=1 Encryption"/>
+					<CompileFile command="C:/Users/cdud8/Downloads/x86_64-6.1.0-release-posix-seh-rt_v5-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cdud8/Desktop/Data-Structures/apt3/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/cdud8/Downloads/x86_64-6.1.0-release-posix-seh-rt_v5-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cdud8/Desktop/Data-Structures/apt3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/cdud8/Downloads/x86_64-6.1.0-release-posix-seh-rt_v5-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cdud8/Desktop/Data-Structures/apt3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Encryption/fast">
+				<Option output="C:/Users/cdud8/Desktop/Data-Structures/apt3/cmake-build-debug/Encryption.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/cdud8/Desktop/Data-Structures/apt3/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/cdud8/Downloads/x86_64-6.1.0-release-posix-seh-rt_v5-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/6.1.0/include/c++"/>
+					<Add directory="C:/Users/cdud8/Downloads/x86_64-6.1.0-release-posix-seh-rt_v5-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/6.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Users/cdud8/Downloads/x86_64-6.1.0-release-posix-seh-rt_v5-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/6.1.0/include/c++/backward"/>
+					<Add directory="C:/Users/cdud8/Downloads/x86_64-6.1.0-release-posix-seh-rt_v5-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/6.1.0/include"/>
+					<Add directory="C:/Users/cdud8/Downloads/x86_64-6.1.0-release-posix-seh-rt_v5-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/6.1.0/include-fixed"/>
+					<Add directory="C:/Users/cdud8/Downloads/x86_64-6.1.0-release-posix-seh-rt_v5-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/6.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Users/cdud8/Downloads/x86_64-6.1.0-release-posix-seh-rt_v5-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cdud8/Desktop/Data-Structures/apt3/cmake-build-debug/Makefile&quot;  VERBOSE=1 Encryption/fast"/>
+					<CompileFile command="C:/Users/cdud8/Downloads/x86_64-6.1.0-release-posix-seh-rt_v5-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cdud8/Desktop/Data-Structures/apt3/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/cdud8/Downloads/x86_64-6.1.0-release-posix-seh-rt_v5-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cdud8/Desktop/Data-Structures/apt3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/cdud8/Downloads/x86_64-6.1.0-release-posix-seh-rt_v5-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cdud8/Desktop/Data-Structures/apt3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="KittenTree">
+				<Option output="C:/Users/cdud8/Desktop/Data-Structures/apt3/cmake-build-debug/KittenTree.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/cdud8/Desktop/Data-Structures/apt3/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/cdud8/Downloads/x86_64-6.1.0-release-posix-seh-rt_v5-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/6.1.0/include/c++"/>
+					<Add directory="C:/Users/cdud8/Downloads/x86_64-6.1.0-release-posix-seh-rt_v5-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/6.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Users/cdud8/Downloads/x86_64-6.1.0-release-posix-seh-rt_v5-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/6.1.0/include/c++/backward"/>
+					<Add directory="C:/Users/cdud8/Downloads/x86_64-6.1.0-release-posix-seh-rt_v5-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/6.1.0/include"/>
+					<Add directory="C:/Users/cdud8/Downloads/x86_64-6.1.0-release-posix-seh-rt_v5-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/6.1.0/include-fixed"/>
+					<Add directory="C:/Users/cdud8/Downloads/x86_64-6.1.0-release-posix-seh-rt_v5-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/6.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Users/cdud8/Downloads/x86_64-6.1.0-release-posix-seh-rt_v5-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cdud8/Desktop/Data-Structures/apt3/cmake-build-debug/Makefile&quot;  VERBOSE=1 KittenTree"/>
+					<CompileFile command="C:/Users/cdud8/Downloads/x86_64-6.1.0-release-posix-seh-rt_v5-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cdud8/Desktop/Data-Structures/apt3/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/cdud8/Downloads/x86_64-6.1.0-release-posix-seh-rt_v5-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cdud8/Desktop/Data-Structures/apt3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/cdud8/Downloads/x86_64-6.1.0-release-posix-seh-rt_v5-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cdud8/Desktop/Data-Structures/apt3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="KittenTree/fast">
+				<Option output="C:/Users/cdud8/Desktop/Data-Structures/apt3/cmake-build-debug/KittenTree.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/cdud8/Desktop/Data-Structures/apt3/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/cdud8/Downloads/x86_64-6.1.0-release-posix-seh-rt_v5-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/6.1.0/include/c++"/>
+					<Add directory="C:/Users/cdud8/Downloads/x86_64-6.1.0-release-posix-seh-rt_v5-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/6.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Users/cdud8/Downloads/x86_64-6.1.0-release-posix-seh-rt_v5-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/6.1.0/include/c++/backward"/>
+					<Add directory="C:/Users/cdud8/Downloads/x86_64-6.1.0-release-posix-seh-rt_v5-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/6.1.0/include"/>
+					<Add directory="C:/Users/cdud8/Downloads/x86_64-6.1.0-release-posix-seh-rt_v5-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/6.1.0/include-fixed"/>
+					<Add directory="C:/Users/cdud8/Downloads/x86_64-6.1.0-release-posix-seh-rt_v5-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/6.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Users/cdud8/Downloads/x86_64-6.1.0-release-posix-seh-rt_v5-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cdud8/Desktop/Data-Structures/apt3/cmake-build-debug/Makefile&quot;  VERBOSE=1 KittenTree/fast"/>
+					<CompileFile command="C:/Users/cdud8/Downloads/x86_64-6.1.0-release-posix-seh-rt_v5-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cdud8/Desktop/Data-Structures/apt3/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/cdud8/Downloads/x86_64-6.1.0-release-posix-seh-rt_v5-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cdud8/Desktop/Data-Structures/apt3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/cdud8/Downloads/x86_64-6.1.0-release-posix-seh-rt_v5-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cdud8/Desktop/Data-Structures/apt3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="C:/Users/cdud8/Desktop/Data-Structures/apt3/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/Users/cdud8/Downloads/x86_64-6.1.0-release-posix-seh-rt_v5-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cdud8/Desktop/Data-Structures/apt3/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/Users/cdud8/Downloads/x86_64-6.1.0-release-posix-seh-rt_v5-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cdud8/Desktop/Data-Structures/apt3/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/cdud8/Downloads/x86_64-6.1.0-release-posix-seh-rt_v5-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cdud8/Desktop/Data-Structures/apt3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/cdud8/Downloads/x86_64-6.1.0-release-posix-seh-rt_v5-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cdud8/Desktop/Data-Structures/apt3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/Users/cdud8/Desktop/Data-Structures/apt3/Encryption/main.cpp">
+			<Option target="Encryption"/>
+		</Unit>
+		<Unit filename="C:/Users/cdud8/Desktop/Data-Structures/apt3/KittenTree/main.cpp">
+			<Option target="KittenTree"/>
+		</Unit>
+		<Unit filename="C:/Users/cdud8/Desktop/Data-Structures/apt3/MemberCheck/main.cpp">
+			<Option target="MemberCheck"/>
+		</Unit>
+		<Unit filename="C:/Users/cdud8/Desktop/Data-Structures/apt3/Nesting/main.cpp">
+			<Option target="Nesting"/>
+		</Unit>
+		<Unit filename="C:/Users/cdud8/Desktop/Data-Structures/apt3/Tourney/main.cpp">
+			<Option target="Tourney"/>
+		</Unit>
+		<Unit filename="C:/Users/cdud8/Desktop/Data-Structures/apt3/main.cpp">
+			<Option target="apt3"/>
+		</Unit>
+		<Unit filename="C:/Users/cdud8/Desktop/Data-Structures/apt3/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
