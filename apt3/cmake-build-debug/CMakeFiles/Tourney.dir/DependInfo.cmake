@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/cdud8/Desktop/Data-Structures/apt3/Tourney/main.cpp" "C:/Users/cdud8/Desktop/Data-Structures/apt3/cmake-build-debug/CMakeFiles/Tourney.dir/Tourney/main.cpp.obj"
+  "Z:/Data-Structures/apt3/Tourney/main.cpp" "Z:/Data-Structures/apt3/cmake-build-debug/CMakeFiles/Tourney.dir/Tourney/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

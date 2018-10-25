@@ -12,45 +12,95 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="81d08f87-5721-4014-aad3-b90b52c79be1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../lab06/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lab06/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lab06/README.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apt3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../apt3/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apt3/Nesting/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../apt3/Nesting/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apt3/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../apt3/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apt3/cmake-build-debug/CMakeFiles/3.12.0/CMakeCCompiler.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../apt3/cmake-build-debug/CMakeFiles/3.12.0/CMakeCCompiler.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apt3/cmake-build-debug/CMakeFiles/3.12.0/CMakeCXXCompiler.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../apt3/cmake-build-debug/CMakeFiles/3.12.0/CMakeCXXCompiler.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apt3/cmake-build-debug/CMakeFiles/3.12.0/CMakeDetermineCompilerABI_C.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../apt3/cmake-build-debug/CMakeFiles/3.12.0/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apt3/cmake-build-debug/CMakeFiles/3.12.0/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../apt3/cmake-build-debug/CMakeFiles/3.12.0/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apt3/cmake-build-debug/CMakeFiles/3.12.0/CMakeRCCompiler.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../apt3/cmake-build-debug/CMakeFiles/3.12.0/CMakeRCCompiler.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apt3/cmake-build-debug/CMakeFiles/3.12.0/CMakeSystem.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../apt3/cmake-build-debug/CMakeFiles/3.12.0/CMakeSystem.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apt3/cmake-build-debug/CMakeFiles/3.12.0/CompilerIdC/a.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../apt3/cmake-build-debug/CMakeFiles/3.12.0/CompilerIdC/a.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apt3/cmake-build-debug/CMakeFiles/3.12.0/CompilerIdCXX/a.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../apt3/cmake-build-debug/CMakeFiles/3.12.0/CompilerIdCXX/a.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apt3/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../apt3/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apt3/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/../apt3/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apt3/cmake-build-debug/CMakeFiles/Encryption.dir/CXX.includecache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apt3/cmake-build-debug/CMakeFiles/Encryption.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../apt3/cmake-build-debug/CMakeFiles/Encryption.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apt3/cmake-build-debug/CMakeFiles/Encryption.dir/Encryption/main.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apt3/cmake-build-debug/CMakeFiles/Encryption.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../apt3/cmake-build-debug/CMakeFiles/Encryption.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apt3/cmake-build-debug/CMakeFiles/Encryption.dir/depend.internal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apt3/cmake-build-debug/CMakeFiles/Encryption.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/../apt3/cmake-build-debug/CMakeFiles/Encryption.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apt3/cmake-build-debug/CMakeFiles/Encryption.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/../apt3/cmake-build-debug/CMakeFiles/Encryption.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apt3/cmake-build-debug/CMakeFiles/Encryption.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../apt3/cmake-build-debug/CMakeFiles/Encryption.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apt3/cmake-build-debug/CMakeFiles/Encryption.dir/objects.a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apt3/cmake-build-debug/CMakeFiles/KittenTree.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../apt3/cmake-build-debug/CMakeFiles/KittenTree.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apt3/cmake-build-debug/CMakeFiles/KittenTree.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../apt3/cmake-build-debug/CMakeFiles/KittenTree.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apt3/cmake-build-debug/CMakeFiles/KittenTree.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/../apt3/cmake-build-debug/CMakeFiles/KittenTree.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apt3/cmake-build-debug/CMakeFiles/KittenTree.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../apt3/cmake-build-debug/CMakeFiles/KittenTree.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apt3/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../apt3/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apt3/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/../apt3/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apt3/cmake-build-debug/CMakeFiles/MemberCheck.dir/CXX.includecache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apt3/cmake-build-debug/CMakeFiles/MemberCheck.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../apt3/cmake-build-debug/CMakeFiles/MemberCheck.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apt3/cmake-build-debug/CMakeFiles/MemberCheck.dir/MemberCheck/main.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apt3/cmake-build-debug/CMakeFiles/MemberCheck.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../apt3/cmake-build-debug/CMakeFiles/MemberCheck.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apt3/cmake-build-debug/CMakeFiles/MemberCheck.dir/depend.internal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apt3/cmake-build-debug/CMakeFiles/MemberCheck.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/../apt3/cmake-build-debug/CMakeFiles/MemberCheck.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apt3/cmake-build-debug/CMakeFiles/MemberCheck.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/../apt3/cmake-build-debug/CMakeFiles/MemberCheck.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apt3/cmake-build-debug/CMakeFiles/MemberCheck.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../apt3/cmake-build-debug/CMakeFiles/MemberCheck.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apt3/cmake-build-debug/CMakeFiles/MemberCheck.dir/objects.a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apt3/cmake-build-debug/CMakeFiles/Nesting.dir/CXX.includecache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apt3/cmake-build-debug/CMakeFiles/Nesting.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../apt3/cmake-build-debug/CMakeFiles/Nesting.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apt3/cmake-build-debug/CMakeFiles/Nesting.dir/Nesting/main.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apt3/cmake-build-debug/CMakeFiles/Nesting.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../apt3/cmake-build-debug/CMakeFiles/Nesting.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apt3/cmake-build-debug/CMakeFiles/Nesting.dir/depend.internal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apt3/cmake-build-debug/CMakeFiles/Nesting.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/../apt3/cmake-build-debug/CMakeFiles/Nesting.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apt3/cmake-build-debug/CMakeFiles/Nesting.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/../apt3/cmake-build-debug/CMakeFiles/Nesting.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apt3/cmake-build-debug/CMakeFiles/Nesting.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../apt3/cmake-build-debug/CMakeFiles/Nesting.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apt3/cmake-build-debug/CMakeFiles/Nesting.dir/objects.a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apt3/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../apt3/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apt3/cmake-build-debug/CMakeFiles/Tourney.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../apt3/cmake-build-debug/CMakeFiles/Tourney.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apt3/cmake-build-debug/CMakeFiles/Tourney.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../apt3/cmake-build-debug/CMakeFiles/Tourney.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apt3/cmake-build-debug/CMakeFiles/Tourney.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/../apt3/cmake-build-debug/CMakeFiles/Tourney.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apt3/cmake-build-debug/CMakeFiles/Tourney.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../apt3/cmake-build-debug/CMakeFiles/Tourney.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apt3/cmake-build-debug/CMakeFiles/apt3.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../apt3/cmake-build-debug/CMakeFiles/apt3.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apt3/cmake-build-debug/CMakeFiles/apt3.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../apt3/cmake-build-debug/CMakeFiles/apt3.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apt3/cmake-build-debug/CMakeFiles/apt3.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/../apt3/cmake-build-debug/CMakeFiles/apt3.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apt3/cmake-build-debug/CMakeFiles/apt3.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../apt3/cmake-build-debug/CMakeFiles/apt3.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apt3/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../apt3/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apt3/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../apt3/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apt3/cmake-build-debug/CMakeFiles/feature_tests.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../apt3/cmake-build-debug/CMakeFiles/feature_tests.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apt3/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../apt3/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apt3/cmake-build-debug/apt3.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/../apt3/cmake-build-debug/apt3.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apt3/cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../apt3/cmake-build-debug/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab06/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../lab06/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab06/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../lab06/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab06/cmake-build-debug/CMakeFiles/3.12.0/CMakeCCompiler.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../lab06/cmake-build-debug/CMakeFiles/3.12.0/CMakeCCompiler.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab06/cmake-build-debug/CMakeFiles/3.12.0/CMakeCXXCompiler.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../lab06/cmake-build-debug/CMakeFiles/3.12.0/CMakeCXXCompiler.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab06/cmake-build-debug/CMakeFiles/3.12.0/CMakeDetermineCompilerABI_C.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../lab06/cmake-build-debug/CMakeFiles/3.12.0/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab06/cmake-build-debug/CMakeFiles/3.12.0/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../lab06/cmake-build-debug/CMakeFiles/3.12.0/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab06/cmake-build-debug/CMakeFiles/3.12.0/CMakeRCCompiler.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../lab06/cmake-build-debug/CMakeFiles/3.12.0/CMakeRCCompiler.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab06/cmake-build-debug/CMakeFiles/3.12.0/CMakeSystem.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../lab06/cmake-build-debug/CMakeFiles/3.12.0/CMakeSystem.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab06/cmake-build-debug/CMakeFiles/3.12.0/CompilerIdC/a.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../lab06/cmake-build-debug/CMakeFiles/3.12.0/CompilerIdC/a.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab06/cmake-build-debug/CMakeFiles/3.12.0/CompilerIdCXX/a.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../lab06/cmake-build-debug/CMakeFiles/3.12.0/CompilerIdCXX/a.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab06/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../lab06/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab06/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/../lab06/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab06/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../lab06/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab06/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/../lab06/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab06/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../lab06/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab06/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../lab06/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab06/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../lab06/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab06/cmake-build-debug/CMakeFiles/feature_tests.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../lab06/cmake-build-debug/CMakeFiles/feature_tests.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab06/cmake-build-debug/CMakeFiles/lab06.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../lab06/cmake-build-debug/CMakeFiles/lab06.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab06/cmake-build-debug/CMakeFiles/lab06.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../lab06/cmake-build-debug/CMakeFiles/lab06.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab06/cmake-build-debug/CMakeFiles/lab06.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/../lab06/cmake-build-debug/CMakeFiles/lab06.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab06/cmake-build-debug/CMakeFiles/lab06.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../lab06/cmake-build-debug/CMakeFiles/lab06.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab06/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../lab06/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab06/cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../lab06/cmake-build-debug/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab06/cmake-build-debug/lab06.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/../lab06/cmake-build-debug/lab06.cbp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project1/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/project1/cmake-build-debug/CMakeCache.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project1/cmake-build-debug/CMakeFiles/3.12.0/CMakeCCompiler.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/project1/cmake-build-debug/CMakeFiles/3.12.0/CMakeCCompiler.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project1/cmake-build-debug/CMakeFiles/3.12.0/CMakeCXXCompiler.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/project1/cmake-build-debug/CMakeFiles/3.12.0/CMakeCXXCompiler.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project1/cmake-build-debug/CMakeFiles/3.12.0/CMakeDetermineCompilerABI_C.bin" beforeDir="false" afterPath="$PROJECT_DIR$/project1/cmake-build-debug/CMakeFiles/3.12.0/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project1/cmake-build-debug/CMakeFiles/3.12.0/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" afterPath="$PROJECT_DIR$/project1/cmake-build-debug/CMakeFiles/3.12.0/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project1/cmake-build-debug/CMakeFiles/3.12.0/CMakeRCCompiler.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/project1/cmake-build-debug/CMakeFiles/3.12.0/CMakeRCCompiler.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project1/cmake-build-debug/CMakeFiles/3.12.0/CMakeSystem.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/project1/cmake-build-debug/CMakeFiles/3.12.0/CMakeSystem.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project1/cmake-build-debug/CMakeFiles/3.12.0/CompilerIdC/a.exe" beforeDir="false" afterPath="$PROJECT_DIR$/project1/cmake-build-debug/CMakeFiles/3.12.0/CompilerIdC/a.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project1/cmake-build-debug/CMakeFiles/3.12.0/CompilerIdCXX/a.exe" beforeDir="false" afterPath="$PROJECT_DIR$/project1/cmake-build-debug/CMakeFiles/3.12.0/CompilerIdCXX/a.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project1/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/project1/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project1/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/project1/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/project1/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/project1/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project1/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/project1/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project1/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/project1/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project1/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" afterPath="$PROJECT_DIR$/project1/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/project1/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/project1/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project1/cmake-build-debug/CMakeFiles/feature_tests.bin" beforeDir="false" afterPath="$PROJECT_DIR$/project1/cmake-build-debug/CMakeFiles/feature_tests.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project1/cmake-build-debug/CMakeFiles/image_editor.dir/CXX.includecache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project1/cmake-build-debug/CMakeFiles/image_editor.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/project1/cmake-build-debug/CMakeFiles/image_editor.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project1/cmake-build-debug/CMakeFiles/image_editor.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/project1/cmake-build-debug/CMakeFiles/image_editor.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project1/cmake-build-debug/CMakeFiles/image_editor.dir/depend.internal" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project1/cmake-build-debug/CMakeFiles/image_editor.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/project1/cmake-build-debug/CMakeFiles/image_editor.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project1/cmake-build-debug/CMakeFiles/image_editor.dir/drawing_window.cpp.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project1/cmake-build-debug/CMakeFiles/image_editor.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/project1/cmake-build-debug/CMakeFiles/image_editor.dir/flags.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project1/cmake-build-debug/CMakeFiles/image_editor.dir/image_editor.cpp.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project1/cmake-build-debug/CMakeFiles/image_editor.dir/includes_CXX.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/project1/cmake-build-debug/CMakeFiles/image_editor.dir/includes_CXX.rsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project1/cmake-build-debug/CMakeFiles/image_editor.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/project1/cmake-build-debug/CMakeFiles/image_editor.dir/link.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project1/cmake-build-debug/CMakeFiles/image_editor.dir/linklibs.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/project1/cmake-build-debug/CMakeFiles/image_editor.dir/linklibs.rsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project1/cmake-build-debug/CMakeFiles/image_editor.dir/main.cpp.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project1/cmake-build-debug/CMakeFiles/image_editor.dir/objects.a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project1/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/project1/cmake-build-debug/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project1/cmake-build-debug/bin/test.ppm" beforeDir="false" afterPath="$PROJECT_DIR$/project1/cmake-build-debug/bin/test.ppm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project1/cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/project1/cmake-build-debug/cmake_install.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project1/cmake-build-debug/image_editor.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/project1/cmake-build-debug/image_editor.cbp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/project1/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -105,8 +155,11 @@
     <session id="1813115327">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="2" />
           <entry key="project.open.time.0" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.4" value="1" />
+          <entry key="project.opened" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -142,28 +195,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/project1/drawing_window.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-969" />
+            <state relative-caret-position="-1020" />
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/project1/drawing_window.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-204" />
-          </provider>
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/project1/image_editor.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="473">
-              <caret line="58" column="21" lean-forward="true" selection-start-line="58" selection-start-column="21" selection-end-line="58" selection-end-column="21" />
-              <folding>
-                <element signature="e#197#214#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="799">
+              <caret line="49" column="28" selection-start-line="49" selection-start-column="28" selection-end-line="49" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -187,7 +235,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1616" />
@@ -199,7 +247,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -222,6 +269,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -229,7 +277,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="preferences.externalDependencies" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -277,17 +325,19 @@
       <workItem from="1536984060295" duration="1768000" />
       <workItem from="1537154447547" duration="24000" />
       <workItem from="1539142524473" duration="1580000" />
+      <workItem from="1540506981848" duration="595000" />
+      <workItem from="1540508052708" duration="100000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20533000" />
+    <option name="totallyTimeSpent" value="21228000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1616" height="876" extended-state="7" />
+    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12082262" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12339332" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -330,16 +380,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/project1/drawing_window.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-969" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project1/drawing_window.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-204" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/project1/image_editor.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
@@ -349,12 +389,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/project1/image_editor.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="473">
-          <caret line="58" column="21" lean-forward="true" selection-start-line="58" selection-start-column="21" selection-end-line="58" selection-end-column="21" />
-          <folding>
-            <element signature="e#197#214#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="799">
+          <caret line="49" column="28" selection-start-line="49" selection-start-column="28" selection-end-line="49" selection-end-column="29" />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project1/drawing_window.cpp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project1/drawing_window.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1020" />
       </provider>
     </entry>
   </component>

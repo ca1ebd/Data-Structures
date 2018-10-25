@@ -1,34 +1,42 @@
 #include <string>
 #include <queue>
 #include <iostream>
+#include <stack>
 
 using namespace std;
 
 bool is_valid(string expr, string left, string right) {
-    queue<int> myQ;
+    stack<int> myStack;
+    bool closed = false;
     for(int i=0; i<expr.length(); i++){
         for(int j=0; j<left.length(); j++){
             if(expr[i] == left[j]){
-                myQ.push(i);
+                myStack.push(j);
+                closed = false;
             }
             if(expr[i] == right[j]){
-                if(myQ.empty()){
+                if(myStack.empty()){
                     return false;
                 }
-                else if(right[j] != right[myQ.front()]){
+                else if(right[j] != right[myStack.top()]){
                     return false;
                 }
-                myQ.pop();
+                else if(right[j] == right[myStack.top()]){
+                    myStack.pop();
+                    closed = true;
+                }
+
             }
 
         }
     }
-    return true;
+
+    return closed;
 
 }
 
 int main(){
-    cout << is_valid("abc(def)ghi", "(", ")") << endl;
+    cout << is_valid("(x(x)", "(", ")") << endl;
 
 
     return 0;
