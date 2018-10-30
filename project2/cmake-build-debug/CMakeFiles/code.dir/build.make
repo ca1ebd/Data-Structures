@@ -33,19 +33,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2018.2.2\bin\cmake\win\bin\cmake.exe"
+CMAKE_COMMAND = "C:\Program Files (x86)\JetBrains\CLion 2018.2.2\bin\cmake\win\bin\cmake.exe"
 
 # The command to remove a file.
-RM = "C:\Program Files\JetBrains\CLion 2018.2.2\bin\cmake\win\bin\cmake.exe" -E remove -f
+RM = "C:\Program Files (x86)\JetBrains\CLion 2018.2.2\bin\cmake\win\bin\cmake.exe" -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\cdud8\Desktop\Data-Structures\project2
+CMAKE_SOURCE_DIR = Z:\Data-Structures\project2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\cdud8\Desktop\Data-Structures\project2\cmake-build-debug
+CMAKE_BINARY_DIR = Z:\Data-Structures\project2\cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/code.dir/depend.make
@@ -59,30 +59,30 @@ include CMakeFiles/code.dir/flags.make
 CMakeFiles/code.dir/main.cpp.obj: CMakeFiles/code.dir/flags.make
 CMakeFiles/code.dir/main.cpp.obj: CMakeFiles/code.dir/includes_CXX.rsp
 CMakeFiles/code.dir/main.cpp.obj: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\cdud8\Desktop\Data-Structures\project2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/code.dir/main.cpp.obj"
-	C:\Users\cdud8\Downloads\x86_64-6.1.0-release-posix-seh-rt_v5-rev0\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\code.dir\main.cpp.obj -c C:\Users\cdud8\Desktop\Data-Structures\project2\main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=Z:\Data-Structures\project2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/code.dir/main.cpp.obj"
+	C:\mingw-w64\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\code.dir\main.cpp.obj -c Z:\Data-Structures\project2\main.cpp
 
 CMakeFiles/code.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/code.dir/main.cpp.i"
-	C:\Users\cdud8\Downloads\x86_64-6.1.0-release-posix-seh-rt_v5-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\cdud8\Desktop\Data-Structures\project2\main.cpp > CMakeFiles\code.dir\main.cpp.i
+	C:\mingw-w64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E Z:\Data-Structures\project2\main.cpp > CMakeFiles\code.dir\main.cpp.i
 
 CMakeFiles/code.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/code.dir/main.cpp.s"
-	C:\Users\cdud8\Downloads\x86_64-6.1.0-release-posix-seh-rt_v5-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\cdud8\Desktop\Data-Structures\project2\main.cpp -o CMakeFiles\code.dir\main.cpp.s
+	C:\mingw-w64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S Z:\Data-Structures\project2\main.cpp -o CMakeFiles\code.dir\main.cpp.s
 
 CMakeFiles/code.dir/maze_solver.cpp.obj: CMakeFiles/code.dir/flags.make
 CMakeFiles/code.dir/maze_solver.cpp.obj: CMakeFiles/code.dir/includes_CXX.rsp
 CMakeFiles/code.dir/maze_solver.cpp.obj: ../maze_solver.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\cdud8\Desktop\Data-Structures\project2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/code.dir/maze_solver.cpp.obj"
-	C:\Users\cdud8\Downloads\x86_64-6.1.0-release-posix-seh-rt_v5-rev0\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\code.dir\maze_solver.cpp.obj -c C:\Users\cdud8\Desktop\Data-Structures\project2\maze_solver.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=Z:\Data-Structures\project2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/code.dir/maze_solver.cpp.obj"
+	C:\mingw-w64\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\code.dir\maze_solver.cpp.obj -c Z:\Data-Structures\project2\maze_solver.cpp
 
 CMakeFiles/code.dir/maze_solver.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/code.dir/maze_solver.cpp.i"
-	C:\Users\cdud8\Downloads\x86_64-6.1.0-release-posix-seh-rt_v5-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\cdud8\Desktop\Data-Structures\project2\maze_solver.cpp > CMakeFiles\code.dir\maze_solver.cpp.i
+	C:\mingw-w64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E Z:\Data-Structures\project2\maze_solver.cpp > CMakeFiles\code.dir\maze_solver.cpp.i
 
 CMakeFiles/code.dir/maze_solver.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/code.dir/maze_solver.cpp.s"
-	C:\Users\cdud8\Downloads\x86_64-6.1.0-release-posix-seh-rt_v5-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\cdud8\Desktop\Data-Structures\project2\maze_solver.cpp -o CMakeFiles\code.dir\maze_solver.cpp.s
+	C:\mingw-w64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S Z:\Data-Structures\project2\maze_solver.cpp -o CMakeFiles\code.dir\maze_solver.cpp.s
 
 # Object files for target code
 code_OBJECTS = \
@@ -98,7 +98,7 @@ code.exe: CMakeFiles/code.dir/build.make
 code.exe: CMakeFiles/code.dir/linklibs.rsp
 code.exe: CMakeFiles/code.dir/objects1.rsp
 code.exe: CMakeFiles/code.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\cdud8\Desktop\Data-Structures\project2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable code.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=Z:\Data-Structures\project2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable code.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\code.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -111,6 +111,6 @@ CMakeFiles/code.dir/clean:
 .PHONY : CMakeFiles/code.dir/clean
 
 CMakeFiles/code.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\cdud8\Desktop\Data-Structures\project2 C:\Users\cdud8\Desktop\Data-Structures\project2 C:\Users\cdud8\Desktop\Data-Structures\project2\cmake-build-debug C:\Users\cdud8\Desktop\Data-Structures\project2\cmake-build-debug C:\Users\cdud8\Desktop\Data-Structures\project2\cmake-build-debug\CMakeFiles\code.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" Z:\Data-Structures\project2 Z:\Data-Structures\project2 Z:\Data-Structures\project2\cmake-build-debug Z:\Data-Structures\project2\cmake-build-debug Z:\Data-Structures\project2\cmake-build-debug\CMakeFiles\code.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/code.dir/depend
 

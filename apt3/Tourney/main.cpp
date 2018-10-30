@@ -1,39 +1,55 @@
 #include <vector>
 #include <string>
-#include <map>
+#include <queue>
+#include <iostream>
 
 
 using namespace std;
 
-
-vector<string> whos_dishonest(vector<string> &club1,
-                              vector<string> &club2,
-                              vector<string> &club3) {
-//    map<string, int> map1;
-//    map<string, int> map2;
-//    map<string, int> map3;
-//
-//    for(int i=0; i<club1.size(); i++){
-//        map1[club1[i]]++;
-//    }
-//    for (int i = 0; i < club2.size(); ++i) {
-//        map2[club2[i]]++;
-//    }
-//    for (int i = 0; i < club3.size(); ++i) {
-//        map3[club3[i]]++;
-//    }
-//    for
-
-    for (int i = 0; i < club1.size(); ++i) {
-        for 
+string winner(vector<string> bracket, string results) {
+    queue<string> myBracket;
+    for(int i=0; i<bracket.size(); i++){
+        myBracket.push(bracket[i]);
     }
 
+    int gameCount = 0;
+    string firstContestant = "";
+    string secondContestant = "";
+    while(myBracket.size() > 1) {
+        firstContestant = myBracket.front();
+        myBracket.pop();
+        secondContestant = myBracket.front();
+        myBracket.pop();
+
+        //cout << "First contestant: " << firstContestant << endl;
+        //cout << "Second contestant: " << secondContestant << endl;
+
+        //if either value is bye, push to the back of the queue
+        if (firstContestant == "bye") {
+            //cout << "first contestant was a bye" << endl;
+            myBracket.push(secondContestant);
+            continue;
+        } else if (secondContestant == "bye") {
+            //cout << "second contestant was a bye" << endl;
+            myBracket.push(firstContestant);
+            continue;
+        } else if (results[gameCount] == 'L') {
+            //cout << secondContestant << " won!" << endl;
+            myBracket.push(secondContestant);
+            gameCount++;
+        } else if (results[gameCount] == 'H') {
+            //cout << firstContestant << " won!" << endl;
+            myBracket.push(firstContestant);
+            gameCount++;
+        }
+    }
+    return myBracket.front();
 }
 
-
 int main(){
-
-
+    vector<string> testVec({"A","B","C","bye","D","E","F","bye"});
+    string testResult = "LHHLH";
+    cout << winner(testVec, testResult) << endl;
 
     return 0;
 }

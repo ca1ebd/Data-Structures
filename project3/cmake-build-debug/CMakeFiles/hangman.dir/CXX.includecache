@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+Z:/Data-Structures/project3/hangman.cpp
+fstream
+-
+hangman.h
+Z:/Data-Structures/project3/hangman.h
+
+Z:/Data-Structures/project3/hangman.h
+string
+-
+vector
+-
+map
+-
+
+Z:/Data-Structures/project3/main.cpp
+iostream
+-
+string
+-
+cstdlib
+-
+cctype
+-
+hangman.h
+Z:/Data-Structures/project3/hangman.h
+
