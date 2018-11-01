@@ -32,7 +32,7 @@ class hangman {
         hangman();
 
         // start a new game where player gets num_guesses unsuccessful tries
-        void start_new_game(int num_guesses);
+        void start_new_game(int num_guesses, int word_length, bool see_words);
 
         // player guesses letter c; return whether or not char is in word
         bool process_guess(char c);
@@ -60,7 +60,15 @@ class hangman {
 
     private:
         map<int, vector<string>> _full_dict; //full dictionary from file
+        map<string, vector<string>> _families;
+        vector<string> _possible_words;
+        string _family_rep = "";
+        string _display_rep = "";
         int _guesses_remaining = 0;
+        int _word_length = 0;
+        bool _see_words = false;
+        string _guessed_chars = "";
+
     
 };
 

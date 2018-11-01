@@ -35,22 +35,36 @@ int main() {
     // Keep playing the game until the user decides otherwise
     while (true) {
         // prompt user for length of word, reprompting if invalid word length
-        int num_guesses;
+        //TODO ensure positive
+        int num_guesses = get_integer("How many guesses would you like?");
+        cout << endl;
+
         bool word_found = false;
+        int word_length = -1;
         while(!word_found){
-            num_guesses = get_integer("How many guesses would you like?");
+            word_length = get_integer("What length of word would you like?");
             cout << endl;
-            word_found = game.isValidLength(num_guesses);
+            word_found = game.isValidLength(word_length);
         }
 
 
 
         // TODO: prompt user to decide whether or not they want to see how many words
         // remain possible for the current display word and previous guesses
+        string user_in = "";
+        bool see_words = false;
+//        cout << "Would you like to see the word list as the game progresses? (Y/n): ";
+//        cin >> user_in;
+//        if((user_in[0] == 'Y') or (user_in[0] == 'y')){
+//            see_words = true;
+//        }
+//        else{
+//            see_words = false;
+//        }
 
         // TODO: rewrite the line below to start a new game with the additional info
         // prompted for above
-        game.start_new_game(num_guesses);
+        game.start_new_game(num_guesses, word_length, see_words);
 
         while (!game.is_won() && !game.is_lost()) {
             cout << "Your word is: " << game.get_display_word() << endl;

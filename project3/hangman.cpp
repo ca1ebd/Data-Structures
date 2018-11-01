@@ -11,6 +11,7 @@
 */
 
 #include <fstream>
+#include <iostream>
 #include "hangman.h"
 
 using namespace std;
@@ -33,8 +34,18 @@ hangman::hangman() {
 // start_new_game()
 //
 // Setup a new game of hangman.
-void hangman::start_new_game(int num_guesses) {
+void hangman::start_new_game(int num_guesses, int word_length, bool see_words) {
     _guesses_remaining = num_guesses;
+    _word_length = word_length;
+    _see_words = see_words;
+
+    //build family representation string
+    for(int i=0; i < word_length; i++){
+        _family_rep += '_';
+    }
+    _display_rep = _family_rep;
+
+    _possible_words = _full_dict[_word_length];
 
 }
 
@@ -45,6 +56,62 @@ void hangman::start_new_game(int num_guesses) {
 // or not the guess was in the hidden word.  If the guess is incorrect, the
 // remaining guess count is decreased.
 bool hangman::process_guess(char c) {
+    _families.clear();
+    _guessed_chars += c;
+
+    for(int i=0; i < _possible_words.size(); i++){
+        for(int j=0; j < _possible_words[i].length(); j++) {
+            if (_possible_words[i][j] != c) {
+                _family_rep[j] = '_';
+            } else {
+                _family_rep[j] = c;
+            }
+        }
+        _families[_family_rep].push_back(_possible_words[i]); //add each word to map under its family representation
+    }
+
+    //find the largest list
+    int largest = _families[_families.begin()->first].size(); //set the largest value to size of the zeroth list in map
+    auto largest_index = _families.begin();
+    for(auto it = _families.begin(); it != _families.end(); ++it){
+        if(_families[it -> first].size() > largest){
+            largest_index = it;
+            largest = _families[largest_index->first].size();
+        }
+    }
+
+    _possible_words = largest_index->second; //"choose" a family
+    string chosen_family_rep = largest_index->first;
+
+    cout << "The word list has " << largest << " words" << endl;
+
+    if (_see_words) {
+        for(int i=0; i<_possible_words.size(); i++){
+            cout << _possible_words[i];
+            cout.flush();
+            if(i%10 == 0){
+                cout << endl;
+            }
+            else{
+                cout << ", ";
+                cout.flush();
+            }
+        }
+    }
+
+    if(largest_index->first != _family_rep){ //did not select blank family
+        //update display rep with new family info
+        for(int i=0; i < _display_rep.length(); i++){
+            if(chosen_family_rep[i] != '_'){
+                _display_rep[i] = chosen_family_rep[i];
+            }
+        }
+
+        return true;
+    }
+
+    //guess was not in word
+    _guesses_remaining--;
     return false;
 }
 
@@ -54,7 +121,7 @@ bool hangman::process_guess(char c) {
 // Return a representation of the hidden word, with unguessed letters
 // masked by '-' characters.
 string hangman::get_display_word() {
-    return "-a--ma-";
+    return _display_rep;
 }
 
 
@@ -70,7 +137,7 @@ int hangman::get_guesses_remaining() {
 //
 // What letters has the player already guessed?  Return in alphabetic order.
 string hangman::get_guessed_chars() {
-    return "aemst";
+    return _guessed_chars;
 }
 
 
@@ -78,6 +145,11 @@ string hangman::get_guessed_chars() {
 //
 // Return true if letter was already guessed.
 bool hangman::was_char_guessed(char c) {
+    for(int i=0; i < _guessed_chars.length(); i++){
+        if(_guessed_chars[i] == c){
+            return true;
+        }
+    }
     return false;
 }
 
