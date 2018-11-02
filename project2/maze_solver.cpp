@@ -133,6 +133,7 @@ void maze_solver::_step() {
         return;
     }
 
+
     Point current_point = _top();
     _pop();
     char current_char = _maze[current_point.row][current_point.column];
