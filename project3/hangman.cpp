@@ -61,6 +61,9 @@ bool hangman::process_guess(char c) {
 
     for(int i=0; i < _possible_words.size(); i++){
         for(int j=0; j < _possible_words[i].length(); j++) {
+//            if(_possible_words[i][j] == c){
+//                _family_rep[j] = c;
+//            }
             if (_possible_words[i][j] != c) {
                 _family_rep[j] = '_';
             } else {
@@ -83,9 +86,8 @@ bool hangman::process_guess(char c) {
     _possible_words = largest_index->second; //"choose" a family
     string chosen_family_rep = largest_index->first;
 
-    cout << "The word list has " << largest << " words" << endl;
-
     if (_see_words) {
+        cout << "The word list has " << largest << " words" << endl;
         for(int i=0; i<_possible_words.size(); i++){
             cout << _possible_words[i];
             cout.flush();
@@ -99,20 +101,33 @@ bool hangman::process_guess(char c) {
         }
     }
 
-    if(largest_index->first != _family_rep){ //did not select blank family
-        //update display rep with new family info
-        for(int i=0; i < _display_rep.length(); i++){
-            if(chosen_family_rep[i] != '_'){
-                _display_rep[i] = chosen_family_rep[i];
-            }
+    //report back whether the guess was in the family
+    bool guess_in_family = false;
+    for(int i=0; i<chosen_family_rep.length(); i++){
+        if(chosen_family_rep[i] == c){ //guess is in word
+            guess_in_family = true;
+            _display_rep[i] = c;
         }
-
-        return true;
     }
+    if(!guess_in_family) { _guesses_remaining--; }
 
-    //guess was not in word
-    _guesses_remaining--;
-    return false;
+    return guess_in_family;
+
+//    if(largest_index->first != _family_rep){ //did not select blank family
+//        //update display rep with new family info
+//        for(int i=0; i < _display_rep.length(); i++){
+//            if(chosen_family_rep[i] != '_'){
+//                _display_rep[i] = chosen_family_rep[i];
+//            }
+//        }
+//
+//        return true;
+//    }
+
+//    //guess was not in word
+//    _guesses_remaining--;
+//    return false;
+
 }
 
 
@@ -158,7 +173,12 @@ bool hangman::was_char_guessed(char c) {
 //
 // Return true if the game has been won by the player.
 bool hangman::is_won() {
-    return false;
+    for(int i=0; i<_display_rep.length(); i++){
+        if(_display_rep[i] == '_'){
+            return false;
+        }
+    }
+    return true;
 }
 
 
@@ -166,7 +186,7 @@ bool hangman::is_won() {
 //
 // Return true if the game has been lost.
 bool hangman::is_lost() {
-    return false;
+    return _guesses_remaining == 0;
 }
 
 
@@ -174,7 +194,7 @@ bool hangman::is_lost() {
 //
 // Return the true hidden word to show the player.
 string hangman::get_hidden_word() {
-    return "hangman";
+    return _possible_words[0];
 }
 
 bool hangman::isValidLength(int length) {
@@ -182,6 +202,17 @@ bool hangman::isValidLength(int length) {
         return true;
     }
     return false;
+}
+
+void hangman::clear(){
+    _families.clear();
+    _possible_words.clear();
+    _family_rep = "";
+    _display_rep = "";
+    _guesses_remaining = 0;
+    _word_length = 0;
+    _see_words = false;
+    _guessed_chars = "";
 }
 
 

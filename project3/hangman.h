@@ -55,8 +55,8 @@ class hangman {
 
         // Return the true hidden word.
         string get_hidden_word();
-
         bool isValidLength(int length);
+        void clear();
 
     private:
         map<int, vector<string>> _full_dict; //full dictionary from file
