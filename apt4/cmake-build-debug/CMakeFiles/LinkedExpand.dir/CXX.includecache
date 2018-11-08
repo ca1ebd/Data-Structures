@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+Z:/Data-Structures/apt4/LinkedExpand/main.cpp
+iostream
+-
+../node.h
+Z:/Data-Structures/apt4/node.h
+vector
+-
+
+Z:/Data-Structures/apt4/node.h
+string
+-
+
