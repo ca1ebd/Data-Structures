@@ -6,27 +6,29 @@ using namespace std;
 
 node* expand(node* head) {
     node* current = head;
-    node* old_next;
+    node* previous_node = new node;
 
-    while(current->next != nullptr){
-        if(current->data != current->next->data){ //test to see if current node data and next node data match
+    while(current != nullptr){
+        if(current->data != previous_node->data){ //test to see if current node data and next node data match
             //add another duplicated node
             node* new_node = new node;
-            new_node->data = current->data;
-            new_node->next = current->next;
-            current->next = new_node;
-            current = current->next->next; //skip next node b/c we just added it
+            new_node->data = previous_node->data;
+            new_node->next = current;
+            previous_node->next = new_node;
+
+             //skip next node b/c we just added it
 //            old_next = current->next;
 //            temp->data = current->data;
 //            temp->next = old_next; //link temporary node to the "back" of the split
 //            current->next = temp;
 //            current = current->next->next;
         }
-        else{
-            current = current->next;
-        }
-        cout << "Current Data: " << current->data << ""
+        previous_node = current;
+        current = current->next;
+        //cout << "Current Data: " << current->data << " Current next: " << current->next << endl;
     }
+
+    if current
     return head;
 }
 
