@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "Z:/Data-Structures/project3/hangman.cpp" "Z:/Data-Structures/project3/cmake-build-debug/CMakeFiles/hangman.dir/hangman.cpp.obj"
-  "Z:/Data-Structures/project3/main.cpp" "Z:/Data-Structures/project3/cmake-build-debug/CMakeFiles/hangman.dir/main.cpp.obj"
+  "/home/caleb/Desktop/Data-Structures/project3/hangman.cpp" "/home/caleb/Desktop/Data-Structures/project3/cmake-build-debug/CMakeFiles/hangman.dir/hangman.cpp.o"
+  "/home/caleb/Desktop/Data-Structures/project3/main.cpp" "/home/caleb/Desktop/Data-Structures/project3/cmake-build-debug/CMakeFiles/hangman.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

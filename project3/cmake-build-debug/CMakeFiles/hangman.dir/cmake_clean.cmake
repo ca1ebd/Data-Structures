@@ -1,10 +1,8 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/hangman.dir/main.cpp.obj"
-  "CMakeFiles/hangman.dir/hangman.cpp.obj"
+  "CMakeFiles/hangman.dir/main.cpp.o"
+  "CMakeFiles/hangman.dir/hangman.cpp.o"
   "hangman.pdb"
-  "hangman.exe"
-  "hangman.exe.manifest"
-  "libhangman.dll.a"
+  "hangman"
 )
 
 # Per-language clean rules from dependency scanning.
