@@ -8,89 +8,85 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/home/caleb/Desktop/Data-Structures/project4/cmake-build-debug"/>
+				<Option working_dir="Z:/Data-Structures/project4/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/caleb/Desktop/Data-Structures/project4/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/caleb/Desktop/Data-Structures/project4/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/caleb/Desktop/Data-Structures/project4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/caleb/Desktop/Data-Structures/project4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="rebuild_cache">
-				<Option working_dir="/home/caleb/Desktop/Data-Structures/project4/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/caleb/Desktop/Data-Structures/project4/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/caleb/Desktop/Data-Structures/project4/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/caleb/Desktop/Data-Structures/project4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/caleb/Desktop/Data-Structures/project4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="edit_cache">
-				<Option working_dir="/home/caleb/Desktop/Data-Structures/project4/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/caleb/Desktop/Data-Structures/project4/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/caleb/Desktop/Data-Structures/project4/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/caleb/Desktop/Data-Structures/project4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/caleb/Desktop/Data-Structures/project4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/mingw-w64/mingw64/bin/mingw32-make.exe -f &quot;Z:/Data-Structures/project4/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/mingw-w64/mingw64/bin/mingw32-make.exe -f &quot;Z:/Data-Structures/project4/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw-w64/mingw64/bin/mingw32-make.exe -f &quot;Z:/Data-Structures/project4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw-w64/mingw64/bin/mingw32-make.exe -f &quot;Z:/Data-Structures/project4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="project4">
-				<Option output="/home/caleb/Desktop/Data-Structures/project4/cmake-build-debug/project4" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/caleb/Desktop/Data-Structures/project4/cmake-build-debug"/>
+				<Option output="Z:/Data-Structures/project4/cmake-build-debug/project4.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="Z:/Data-Structures/project4/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/usr/include/c++/5"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
-					<Add directory="/usr/include/c++/5/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
+					<Add directory="C:/mingw-w64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++"/>
+					<Add directory="C:/mingw-w64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/mingw-w64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward"/>
+					<Add directory="C:/mingw-w64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include"/>
+					<Add directory="C:/mingw-w64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed"/>
+					<Add directory="C:/mingw-w64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/caleb/Desktop/Data-Structures/project4/cmake-build-debug/Makefile&quot;  VERBOSE=1 project4"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/caleb/Desktop/Data-Structures/project4/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/caleb/Desktop/Data-Structures/project4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/caleb/Desktop/Data-Structures/project4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/mingw-w64/mingw64/bin/mingw32-make.exe -f &quot;Z:/Data-Structures/project4/cmake-build-debug/Makefile&quot;  VERBOSE=1 project4"/>
+					<CompileFile command="C:/mingw-w64/mingw64/bin/mingw32-make.exe -f &quot;Z:/Data-Structures/project4/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw-w64/mingw64/bin/mingw32-make.exe -f &quot;Z:/Data-Structures/project4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw-w64/mingw64/bin/mingw32-make.exe -f &quot;Z:/Data-Structures/project4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="project4/fast">
-				<Option output="/home/caleb/Desktop/Data-Structures/project4/cmake-build-debug/project4" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/caleb/Desktop/Data-Structures/project4/cmake-build-debug"/>
+				<Option output="Z:/Data-Structures/project4/cmake-build-debug/project4.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="Z:/Data-Structures/project4/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/usr/include/c++/5"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
-					<Add directory="/usr/include/c++/5/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
+					<Add directory="C:/mingw-w64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++"/>
+					<Add directory="C:/mingw-w64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/mingw-w64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward"/>
+					<Add directory="C:/mingw-w64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include"/>
+					<Add directory="C:/mingw-w64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed"/>
+					<Add directory="C:/mingw-w64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/caleb/Desktop/Data-Structures/project4/cmake-build-debug/Makefile&quot;  VERBOSE=1 project4/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/caleb/Desktop/Data-Structures/project4/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/caleb/Desktop/Data-Structures/project4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/caleb/Desktop/Data-Structures/project4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/mingw-w64/mingw64/bin/mingw32-make.exe -f &quot;Z:/Data-Structures/project4/cmake-build-debug/Makefile&quot;  VERBOSE=1 project4/fast"/>
+					<CompileFile command="C:/mingw-w64/mingw64/bin/mingw32-make.exe -f &quot;Z:/Data-Structures/project4/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw-w64/mingw64/bin/mingw32-make.exe -f &quot;Z:/Data-Structures/project4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw-w64/mingw64/bin/mingw32-make.exe -f &quot;Z:/Data-Structures/project4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="Z:/Data-Structures/project4/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/mingw-w64/mingw64/bin/mingw32-make.exe -f &quot;Z:/Data-Structures/project4/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/mingw-w64/mingw64/bin/mingw32-make.exe -f &quot;Z:/Data-Structures/project4/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw-w64/mingw64/bin/mingw32-make.exe -f &quot;Z:/Data-Structures/project4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw-w64/mingw64/bin/mingw32-make.exe -f &quot;Z:/Data-Structures/project4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="Z:/Data-Structures/project4/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/mingw-w64/mingw64/bin/mingw32-make.exe -f &quot;Z:/Data-Structures/project4/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/mingw-w64/mingw64/bin/mingw32-make.exe -f &quot;Z:/Data-Structures/project4/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw-w64/mingw64/bin/mingw32-make.exe -f &quot;Z:/Data-Structures/project4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw-w64/mingw64/bin/mingw32-make.exe -f &quot;Z:/Data-Structures/project4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/caleb/Desktop/Data-Structures/project4/animal.cpp">
+		<Unit filename="Z:/Data-Structures/project4/animal.cpp">
 			<Option target="project4"/>
 		</Unit>
-		<Unit filename="/home/caleb/Desktop/Data-Structures/project4/animal.h">
+		<Unit filename="Z:/Data-Structures/project4/animal.h">
 			<Option target="project4"/>
 		</Unit>
-		<Unit filename="/home/caleb/Desktop/Data-Structures/project4/CMakeLists.txt">
+		<Unit filename="Z:/Data-Structures/project4/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

@@ -6,15 +6,15 @@
 
 #IncludeRegexTransform: 
 
-/home/caleb/Desktop/Data-Structures/project4/animal.cpp
+Z:/Data-Structures/lab10/Queue.h
 iostream
 -
-fstream
--
+
+Z:/Data-Structures/lab10/main.cpp
 string
 -
-cstdlib
+iostream
 -
-queue
--
+Queue.h
+Z:/Data-Structures/lab10/Queue.h
 

@@ -4,31 +4,47 @@
 
 using namespace std;
 
-node* expand(node* head) {
-    node* current = head;
-    node* previous_node = new node;
+//node* expand(node* head) {
+//    node* current = head;
+//    node* previous_node = new node;
+//
+//    while(current != nullptr){
+//        if(current->data != previous_node->data){ //test to see if current node data and next node data match
+//            //add another duplicated node
+//            node* new_node = new node;
+//            new_node->data = previous_node->data;
+//            new_node->next = current;
+//            previous_node->next = new_node;
+//
+//             //skip next node b/c we just added it
+////            old_next = current->next;
+////            temp->data = current->data;
+////            temp->next = old_next; //link temporary node to the "back" of the split
+////            current->next = temp;
+////            current = current->next->next;
+//        }
+//        previous_node = current;
+//        current = current->next;
+//        //cout << "Current Data: " << current->data << " Current next: " << current->next << endl;
+//    }
+//
+//    if current
+//    return head;
+//}
 
-    while(current != nullptr){
-        if(current->data != previous_node->data){ //test to see if current node data and next node data match
-            //add another duplicated node
+node * expand(node* head){
+    node* prev_node;
+
+    for(node* current = head; current != nullptr; current = current->next){
+        if(((current->data != prev_node->data) && (current->next != nullptr && current->data != current->next->data))){
             node* new_node = new node;
-            new_node->data = previous_node->data;
-            new_node->next = current;
-            previous_node->next = new_node;
-
-             //skip next node b/c we just added it
-//            old_next = current->next;
-//            temp->data = current->data;
-//            temp->next = old_next; //link temporary node to the "back" of the split
-//            current->next = temp;
-//            current = current->next->next;
+            new_node->data = current->data;
+            new_node->next = current->next;
+            current = current->next;
         }
-        previous_node = current;
-        current = current->next;
-        //cout << "Current Data: " << current->data << " Current next: " << current->next << endl;
+        prev_node = current;
     }
 
-    if current
     return head;
 }
 
