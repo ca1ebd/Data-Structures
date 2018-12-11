@@ -14,11 +14,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6cd55b8c-fe99-431c-8276-6edca912cf2f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../EC/IsomorphicWords/main.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EC/Metaprogramming/main.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EC/RatRoute/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EC/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../EC/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EC/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../EC/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EC/SubWord/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../EC/SubWord/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EC/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../EC/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EC/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/../EC/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EC/cmake-build-debug/CMakeFiles/SubWord.dir/SubWord/main.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../EC/cmake-build-debug/CMakeFiles/SubWord.dir/SubWord/main.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EC/cmake-build-debug/CMakeFiles/SubWord.dir/objects.a" beforeDir="false" afterPath="$PROJECT_DIR$/../EC/cmake-build-debug/CMakeFiles/SubWord.dir/objects.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EC/cmake-build-debug/CMakeFiles/SubWord.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/../EC/cmake-build-debug/CMakeFiles/SubWord.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EC/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../EC/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EC/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/../EC/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EC/cmake-build-debug/EC.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/../EC/cmake-build-debug/EC.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EC/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../EC/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EC/cmake-build-debug/SubWord.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../EC/cmake-build-debug/SubWord.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LinkedExpand/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/LinkedExpand/main.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LinkedExpand.dir/LinkedExpand/main.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LinkedExpand.dir/LinkedExpand/main.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LinkedExpand.dir/objects.a" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LinkedExpand.dir/objects.a" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/LinkedExpand.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/LinkedExpand.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../project2/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -33,17 +46,17 @@
       <usages-collector id="statistics.lifecycle.project">
         <counts>
           <entry key="project.closed" value="2" />
-          <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.0" value="2" />
           <entry key="project.open.time.4" value="3" />
-          <entry key="project.opened" value="4" />
+          <entry key="project.opened" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="LinkedCompress (disassembly)" value="3" />
           <entry key="LinkedExpand (disassembly)" value="1" />
-          <entry key="cpp" value="7" />
-          <entry key="h" value="3" />
+          <entry key="cpp" value="8" />
+          <entry key="h" value="4" />
           <entry key="txt" value="1" />
         </counts>
       </usages-collector>
@@ -51,7 +64,7 @@
         <counts>
           <entry key="CMakeLists.txt" value="1" />
           <entry key="Disassembly" value="4" />
-          <entry key="ObjectiveC" value="10" />
+          <entry key="ObjectiveC" value="12" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -82,11 +95,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/LinkedExpand/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="41" column="43" selection-start-line="41" selection-start-column="43" selection-end-line="41" selection-end-column="43" />
+            <state relative-caret-position="161">
+              <caret line="34" selection-start-line="34" selection-end-line="48" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -103,8 +116,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/LinkedCompress/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="9" column="20" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
+            <state relative-caret-position="138">
+              <caret line="6" selection-start-line="6" selection-end-line="32" selection-end-column="1" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
               </folding>
@@ -115,17 +128,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/basic_string.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="138138">
+            <state relative-caret-position="55407">
               <caret line="6006" selection-start-line="6006" selection-end-line="6006" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/LinkedCycles/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="299">
-              <caret line="13" column="28" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
+              <caret line="14" column="17" lean-forward="true" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -153,8 +166,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-140" />
-    <option name="y" value="-27" />
+    <option name="x" value="1592" />
+    <option name="y" value="-8" />
     <option name="width" value="1616" />
     <option name="height" value="876" />
   </component>
@@ -166,7 +179,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -193,11 +205,12 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../lab10" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -261,17 +274,19 @@
       <workItem from="1541816876187" duration="6432000" />
       <workItem from="1542088678742" duration="1394000" />
       <workItem from="1542150579651" duration="369000" />
+      <workItem from="1544508364069" duration="417000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12769000" />
+    <option name="totallyTimeSpent" value="13186000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
+    <frame x="1592" y="-8" width="1616" height="876" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.2667095" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.26992288" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="CMake" order="0" />
       <window_info anchor="bottom" id="Terminal" order="1" />
@@ -336,34 +351,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/basic_string.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="55407">
+          <caret line="6006" selection-start-line="6006" selection-end-line="6006" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LinkedExpand/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="34" selection-start-line="34" selection-end-line="48" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/LinkedCompress/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="9" column="20" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
+        <state relative-caret-position="138">
+          <caret line="6" selection-start-line="6" selection-end-line="32" selection-end-column="1" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/basic_string.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138138">
-          <caret line="6006" selection-start-line="6006" selection-end-line="6006" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/LinkedCycles/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="299">
-          <caret line="13" column="28" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LinkedExpand/main.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="41" column="43" selection-start-line="41" selection-start-column="43" selection-end-line="41" selection-end-column="43" />
+          <caret line="14" column="17" lean-forward="true" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
         </state>
       </provider>
     </entry>

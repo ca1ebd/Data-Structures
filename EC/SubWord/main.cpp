@@ -26,7 +26,7 @@ int longest(string input, vector<string> &words) {
                     position_input++;
                     //found letter in word, can check next letter of small word
                 }
-                else if(position_input == input.length()-1) {
+                else if(position_input >= input.length()-1) {
                     possible = false;
                 }
                 else{
@@ -40,7 +40,7 @@ int longest(string input, vector<string> &words) {
             possibilities.push_back(words[i]);
         }
     }
-    string largest = possibilities[0];
+    string largest = "";
     for(int i=0; i<possibilities.size(); i++){
 //        cout << possibilities[i] << ", " << endl;
         if (possibilities[i].length() > largest.length()){
@@ -52,8 +52,8 @@ int longest(string input, vector<string> &words) {
 }
 
 int main(){
-    string input = "sfpomrtq";
-    vector<string> words = {"or", "sport", "port", "for", "fort", "pot", "sot"};
+    string input = "pluuifeti";
+    vector<string> words = {"boyfriend", "icy", "items", "malfunctioning", "sanguinary", "adenoidal", "surefire", "scaffolding", "wilder", "wholesaler", "mingles", "atone", "rehearses", "firestorms", "grannie", "cap", "refiling", "climbs", "hypothetically", "facsimiles", "quasi", "lifetimes", "philharmonic", "tracer", "neutralizing", "ostriches", "looked", "reduced", "instruments", "gruelled", "miens", "uptakes", "floozie", "marketers", "meritocracies", "svelte", "monarchism"};
 
     cout << longest(input, words);
 }

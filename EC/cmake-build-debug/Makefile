@@ -110,6 +110,32 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named RatRoute
+
+# Build rule for target.
+RatRoute: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 RatRoute
+.PHONY : RatRoute
+
+# fast build rule for target.
+RatRoute/fast:
+	$(MAKE) -f CMakeFiles\RatRoute.dir\build.make CMakeFiles/RatRoute.dir/build
+.PHONY : RatRoute/fast
+
+#=============================================================================
+# Target rules for targets named Metaprogramming
+
+# Build rule for target.
+Metaprogramming: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 Metaprogramming
+.PHONY : Metaprogramming
+
+# fast build rule for target.
+Metaprogramming/fast:
+	$(MAKE) -f CMakeFiles\Metaprogramming.dir\build.make CMakeFiles/Metaprogramming.dir/build
+.PHONY : Metaprogramming/fast
+
+#=============================================================================
 # Target rules for targets named SubWord
 
 # Build rule for target.
@@ -121,6 +147,100 @@ SubWord: cmake_check_build_system
 SubWord/fast:
 	$(MAKE) -f CMakeFiles\SubWord.dir\build.make CMakeFiles/SubWord.dir/build
 .PHONY : SubWord/fast
+
+#=============================================================================
+# Target rules for targets named IsomorphicWords
+
+# Build rule for target.
+IsomorphicWords: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 IsomorphicWords
+.PHONY : IsomorphicWords
+
+# fast build rule for target.
+IsomorphicWords/fast:
+	$(MAKE) -f CMakeFiles\IsomorphicWords.dir\build.make CMakeFiles/IsomorphicWords.dir/build
+.PHONY : IsomorphicWords/fast
+
+IsomorphicWords/main.obj: IsomorphicWords/main.cpp.obj
+
+.PHONY : IsomorphicWords/main.obj
+
+# target to build an object file
+IsomorphicWords/main.cpp.obj:
+	$(MAKE) -f CMakeFiles\IsomorphicWords.dir\build.make CMakeFiles/IsomorphicWords.dir/IsomorphicWords/main.cpp.obj
+.PHONY : IsomorphicWords/main.cpp.obj
+
+IsomorphicWords/main.i: IsomorphicWords/main.cpp.i
+
+.PHONY : IsomorphicWords/main.i
+
+# target to preprocess a source file
+IsomorphicWords/main.cpp.i:
+	$(MAKE) -f CMakeFiles\IsomorphicWords.dir\build.make CMakeFiles/IsomorphicWords.dir/IsomorphicWords/main.cpp.i
+.PHONY : IsomorphicWords/main.cpp.i
+
+IsomorphicWords/main.s: IsomorphicWords/main.cpp.s
+
+.PHONY : IsomorphicWords/main.s
+
+# target to generate assembly for a file
+IsomorphicWords/main.cpp.s:
+	$(MAKE) -f CMakeFiles\IsomorphicWords.dir\build.make CMakeFiles/IsomorphicWords.dir/IsomorphicWords/main.cpp.s
+.PHONY : IsomorphicWords/main.cpp.s
+
+Metaprogramming/main.obj: Metaprogramming/main.cpp.obj
+
+.PHONY : Metaprogramming/main.obj
+
+# target to build an object file
+Metaprogramming/main.cpp.obj:
+	$(MAKE) -f CMakeFiles\Metaprogramming.dir\build.make CMakeFiles/Metaprogramming.dir/Metaprogramming/main.cpp.obj
+.PHONY : Metaprogramming/main.cpp.obj
+
+Metaprogramming/main.i: Metaprogramming/main.cpp.i
+
+.PHONY : Metaprogramming/main.i
+
+# target to preprocess a source file
+Metaprogramming/main.cpp.i:
+	$(MAKE) -f CMakeFiles\Metaprogramming.dir\build.make CMakeFiles/Metaprogramming.dir/Metaprogramming/main.cpp.i
+.PHONY : Metaprogramming/main.cpp.i
+
+Metaprogramming/main.s: Metaprogramming/main.cpp.s
+
+.PHONY : Metaprogramming/main.s
+
+# target to generate assembly for a file
+Metaprogramming/main.cpp.s:
+	$(MAKE) -f CMakeFiles\Metaprogramming.dir\build.make CMakeFiles/Metaprogramming.dir/Metaprogramming/main.cpp.s
+.PHONY : Metaprogramming/main.cpp.s
+
+RatRoute/main.obj: RatRoute/main.cpp.obj
+
+.PHONY : RatRoute/main.obj
+
+# target to build an object file
+RatRoute/main.cpp.obj:
+	$(MAKE) -f CMakeFiles\RatRoute.dir\build.make CMakeFiles/RatRoute.dir/RatRoute/main.cpp.obj
+.PHONY : RatRoute/main.cpp.obj
+
+RatRoute/main.i: RatRoute/main.cpp.i
+
+.PHONY : RatRoute/main.i
+
+# target to preprocess a source file
+RatRoute/main.cpp.i:
+	$(MAKE) -f CMakeFiles\RatRoute.dir\build.make CMakeFiles/RatRoute.dir/RatRoute/main.cpp.i
+.PHONY : RatRoute/main.cpp.i
+
+RatRoute/main.s: RatRoute/main.cpp.s
+
+.PHONY : RatRoute/main.s
+
+# target to generate assembly for a file
+RatRoute/main.cpp.s:
+	$(MAKE) -f CMakeFiles\RatRoute.dir\build.make CMakeFiles/RatRoute.dir/RatRoute/main.cpp.s
+.PHONY : RatRoute/main.cpp.s
 
 SubWord/main.obj: SubWord/main.cpp.obj
 
@@ -156,8 +276,20 @@ help:
 	@echo ... clean
 	@echo ... depend
 	@echo ... rebuild_cache
+	@echo ... RatRoute
+	@echo ... Metaprogramming
 	@echo ... SubWord
+	@echo ... IsomorphicWords
 	@echo ... edit_cache
+	@echo ... IsomorphicWords/main.obj
+	@echo ... IsomorphicWords/main.i
+	@echo ... IsomorphicWords/main.s
+	@echo ... Metaprogramming/main.obj
+	@echo ... Metaprogramming/main.i
+	@echo ... Metaprogramming/main.s
+	@echo ... RatRoute/main.obj
+	@echo ... RatRoute/main.i
+	@echo ... RatRoute/main.s
 	@echo ... SubWord/main.obj
 	@echo ... SubWord/main.i
 	@echo ... SubWord/main.s

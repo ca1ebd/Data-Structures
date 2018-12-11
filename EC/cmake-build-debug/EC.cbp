@@ -27,6 +27,90 @@
 					<DistClean command="C:/mingw-w64/mingw64/bin/mingw32-make.exe -f &quot;Z:/Data-Structures/EC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="RatRoute">
+				<Option output="Z:/Data-Structures/EC/cmake-build-debug/RatRoute.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="Z:/Data-Structures/EC/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/mingw-w64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++"/>
+					<Add directory="C:/mingw-w64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/mingw-w64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward"/>
+					<Add directory="C:/mingw-w64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include"/>
+					<Add directory="C:/mingw-w64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed"/>
+					<Add directory="C:/mingw-w64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/mingw-w64/mingw64/bin/mingw32-make.exe -f &quot;Z:/Data-Structures/EC/cmake-build-debug/Makefile&quot;  VERBOSE=1 RatRoute"/>
+					<CompileFile command="C:/mingw-w64/mingw64/bin/mingw32-make.exe -f &quot;Z:/Data-Structures/EC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw-w64/mingw64/bin/mingw32-make.exe -f &quot;Z:/Data-Structures/EC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw-w64/mingw64/bin/mingw32-make.exe -f &quot;Z:/Data-Structures/EC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="RatRoute/fast">
+				<Option output="Z:/Data-Structures/EC/cmake-build-debug/RatRoute.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="Z:/Data-Structures/EC/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/mingw-w64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++"/>
+					<Add directory="C:/mingw-w64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/mingw-w64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward"/>
+					<Add directory="C:/mingw-w64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include"/>
+					<Add directory="C:/mingw-w64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed"/>
+					<Add directory="C:/mingw-w64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/mingw-w64/mingw64/bin/mingw32-make.exe -f &quot;Z:/Data-Structures/EC/cmake-build-debug/Makefile&quot;  VERBOSE=1 RatRoute/fast"/>
+					<CompileFile command="C:/mingw-w64/mingw64/bin/mingw32-make.exe -f &quot;Z:/Data-Structures/EC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw-w64/mingw64/bin/mingw32-make.exe -f &quot;Z:/Data-Structures/EC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw-w64/mingw64/bin/mingw32-make.exe -f &quot;Z:/Data-Structures/EC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Metaprogramming">
+				<Option output="Z:/Data-Structures/EC/cmake-build-debug/Metaprogramming.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="Z:/Data-Structures/EC/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/mingw-w64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++"/>
+					<Add directory="C:/mingw-w64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/mingw-w64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward"/>
+					<Add directory="C:/mingw-w64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include"/>
+					<Add directory="C:/mingw-w64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed"/>
+					<Add directory="C:/mingw-w64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/mingw-w64/mingw64/bin/mingw32-make.exe -f &quot;Z:/Data-Structures/EC/cmake-build-debug/Makefile&quot;  VERBOSE=1 Metaprogramming"/>
+					<CompileFile command="C:/mingw-w64/mingw64/bin/mingw32-make.exe -f &quot;Z:/Data-Structures/EC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw-w64/mingw64/bin/mingw32-make.exe -f &quot;Z:/Data-Structures/EC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw-w64/mingw64/bin/mingw32-make.exe -f &quot;Z:/Data-Structures/EC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Metaprogramming/fast">
+				<Option output="Z:/Data-Structures/EC/cmake-build-debug/Metaprogramming.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="Z:/Data-Structures/EC/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/mingw-w64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++"/>
+					<Add directory="C:/mingw-w64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/mingw-w64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward"/>
+					<Add directory="C:/mingw-w64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include"/>
+					<Add directory="C:/mingw-w64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed"/>
+					<Add directory="C:/mingw-w64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/mingw-w64/mingw64/bin/mingw32-make.exe -f &quot;Z:/Data-Structures/EC/cmake-build-debug/Makefile&quot;  VERBOSE=1 Metaprogramming/fast"/>
+					<CompileFile command="C:/mingw-w64/mingw64/bin/mingw32-make.exe -f &quot;Z:/Data-Structures/EC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw-w64/mingw64/bin/mingw32-make.exe -f &quot;Z:/Data-Structures/EC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw-w64/mingw64/bin/mingw32-make.exe -f &quot;Z:/Data-Structures/EC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="SubWord">
 				<Option output="Z:/Data-Structures/EC/cmake-build-debug/SubWord.exe" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="Z:/Data-Structures/EC/cmake-build-debug"/>
@@ -69,6 +153,48 @@
 					<DistClean command="C:/mingw-w64/mingw64/bin/mingw32-make.exe -f &quot;Z:/Data-Structures/EC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="IsomorphicWords">
+				<Option output="Z:/Data-Structures/EC/cmake-build-debug/IsomorphicWords.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="Z:/Data-Structures/EC/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/mingw-w64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++"/>
+					<Add directory="C:/mingw-w64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/mingw-w64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward"/>
+					<Add directory="C:/mingw-w64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include"/>
+					<Add directory="C:/mingw-w64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed"/>
+					<Add directory="C:/mingw-w64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/mingw-w64/mingw64/bin/mingw32-make.exe -f &quot;Z:/Data-Structures/EC/cmake-build-debug/Makefile&quot;  VERBOSE=1 IsomorphicWords"/>
+					<CompileFile command="C:/mingw-w64/mingw64/bin/mingw32-make.exe -f &quot;Z:/Data-Structures/EC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw-w64/mingw64/bin/mingw32-make.exe -f &quot;Z:/Data-Structures/EC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw-w64/mingw64/bin/mingw32-make.exe -f &quot;Z:/Data-Structures/EC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="IsomorphicWords/fast">
+				<Option output="Z:/Data-Structures/EC/cmake-build-debug/IsomorphicWords.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="Z:/Data-Structures/EC/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/mingw-w64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++"/>
+					<Add directory="C:/mingw-w64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/mingw-w64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward"/>
+					<Add directory="C:/mingw-w64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include"/>
+					<Add directory="C:/mingw-w64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed"/>
+					<Add directory="C:/mingw-w64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/mingw-w64/mingw64/bin/mingw32-make.exe -f &quot;Z:/Data-Structures/EC/cmake-build-debug/Makefile&quot;  VERBOSE=1 IsomorphicWords/fast"/>
+					<CompileFile command="C:/mingw-w64/mingw64/bin/mingw32-make.exe -f &quot;Z:/Data-Structures/EC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw-w64/mingw64/bin/mingw32-make.exe -f &quot;Z:/Data-Structures/EC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw-w64/mingw64/bin/mingw32-make.exe -f &quot;Z:/Data-Structures/EC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="edit_cache">
 				<Option working_dir="Z:/Data-Structures/EC/cmake-build-debug"/>
 				<Option type="4"/>
@@ -80,6 +206,15 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="Z:/Data-Structures/EC/IsomorphicWords/main.cpp">
+			<Option target="IsomorphicWords"/>
+		</Unit>
+		<Unit filename="Z:/Data-Structures/EC/Metaprogramming/main.cpp">
+			<Option target="Metaprogramming"/>
+		</Unit>
+		<Unit filename="Z:/Data-Structures/EC/RatRoute/main.cpp">
+			<Option target="RatRoute"/>
+		</Unit>
 		<Unit filename="Z:/Data-Structures/EC/SubWord/main.cpp">
 			<Option target="SubWord"/>
 		</Unit>

@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+Z:/Data-Structures/EC/IsomorphicWords/main.cpp
+vector
+-
+string
+-
+map
+-
+iostream
+-
+

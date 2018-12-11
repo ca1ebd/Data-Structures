@@ -64,13 +64,87 @@ CMAKE_SOURCE_DIR = Z:\Data-Structures\EC
 CMAKE_BINARY_DIR = Z:\Data-Structures\EC\cmake-build-debug
 
 #=============================================================================
+# Target rules for target CMakeFiles/RatRoute.dir
+
+# All Build rule for target.
+CMakeFiles/RatRoute.dir/all:
+	$(MAKE) -f CMakeFiles\RatRoute.dir\build.make CMakeFiles/RatRoute.dir/depend
+	$(MAKE) -f CMakeFiles\RatRoute.dir\build.make CMakeFiles/RatRoute.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=Z:\Data-Structures\EC\cmake-build-debug\CMakeFiles --progress-num=5,6 "Built target RatRoute"
+.PHONY : CMakeFiles/RatRoute.dir/all
+
+# Include target in all.
+all: CMakeFiles/RatRoute.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/RatRoute.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start Z:\Data-Structures\EC\cmake-build-debug\CMakeFiles 2
+	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/RatRoute.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start Z:\Data-Structures\EC\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/RatRoute.dir/rule
+
+# Convenience name for target.
+RatRoute: CMakeFiles/RatRoute.dir/rule
+
+.PHONY : RatRoute
+
+# clean rule for target.
+CMakeFiles/RatRoute.dir/clean:
+	$(MAKE) -f CMakeFiles\RatRoute.dir\build.make CMakeFiles/RatRoute.dir/clean
+.PHONY : CMakeFiles/RatRoute.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/RatRoute.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/Metaprogramming.dir
+
+# All Build rule for target.
+CMakeFiles/Metaprogramming.dir/all:
+	$(MAKE) -f CMakeFiles\Metaprogramming.dir\build.make CMakeFiles/Metaprogramming.dir/depend
+	$(MAKE) -f CMakeFiles\Metaprogramming.dir\build.make CMakeFiles/Metaprogramming.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=Z:\Data-Structures\EC\cmake-build-debug\CMakeFiles --progress-num=3,4 "Built target Metaprogramming"
+.PHONY : CMakeFiles/Metaprogramming.dir/all
+
+# Include target in all.
+all: CMakeFiles/Metaprogramming.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/Metaprogramming.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start Z:\Data-Structures\EC\cmake-build-debug\CMakeFiles 2
+	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/Metaprogramming.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start Z:\Data-Structures\EC\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/Metaprogramming.dir/rule
+
+# Convenience name for target.
+Metaprogramming: CMakeFiles/Metaprogramming.dir/rule
+
+.PHONY : Metaprogramming
+
+# clean rule for target.
+CMakeFiles/Metaprogramming.dir/clean:
+	$(MAKE) -f CMakeFiles\Metaprogramming.dir\build.make CMakeFiles/Metaprogramming.dir/clean
+.PHONY : CMakeFiles/Metaprogramming.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/Metaprogramming.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/SubWord.dir
 
 # All Build rule for target.
 CMakeFiles/SubWord.dir/all:
 	$(MAKE) -f CMakeFiles\SubWord.dir\build.make CMakeFiles/SubWord.dir/depend
 	$(MAKE) -f CMakeFiles\SubWord.dir\build.make CMakeFiles/SubWord.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=Z:\Data-Structures\EC\cmake-build-debug\CMakeFiles --progress-num=1,2 "Built target SubWord"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=Z:\Data-Structures\EC\cmake-build-debug\CMakeFiles --progress-num=7,8 "Built target SubWord"
 .PHONY : CMakeFiles/SubWord.dir/all
 
 # Include target in all.
@@ -97,6 +171,43 @@ CMakeFiles/SubWord.dir/clean:
 
 # clean rule for target.
 clean: CMakeFiles/SubWord.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/IsomorphicWords.dir
+
+# All Build rule for target.
+CMakeFiles/IsomorphicWords.dir/all:
+	$(MAKE) -f CMakeFiles\IsomorphicWords.dir\build.make CMakeFiles/IsomorphicWords.dir/depend
+	$(MAKE) -f CMakeFiles\IsomorphicWords.dir\build.make CMakeFiles/IsomorphicWords.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=Z:\Data-Structures\EC\cmake-build-debug\CMakeFiles --progress-num=1,2 "Built target IsomorphicWords"
+.PHONY : CMakeFiles/IsomorphicWords.dir/all
+
+# Include target in all.
+all: CMakeFiles/IsomorphicWords.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/IsomorphicWords.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start Z:\Data-Structures\EC\cmake-build-debug\CMakeFiles 2
+	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/IsomorphicWords.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start Z:\Data-Structures\EC\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/IsomorphicWords.dir/rule
+
+# Convenience name for target.
+IsomorphicWords: CMakeFiles/IsomorphicWords.dir/rule
+
+.PHONY : IsomorphicWords
+
+# clean rule for target.
+CMakeFiles/IsomorphicWords.dir/clean:
+	$(MAKE) -f CMakeFiles\IsomorphicWords.dir\build.make CMakeFiles/IsomorphicWords.dir/clean
+.PHONY : CMakeFiles/IsomorphicWords.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/IsomorphicWords.dir/clean
 
 .PHONY : clean
 
